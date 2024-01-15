@@ -1,0 +1,75 @@
+*{
+    margin: 5px;
+}
+
+.hesap_bilgi{
+    margin-right: 4rem;
+    border: 1px solid;
+    padding: 1rem;
+}
+
+.input:focus{
+    outline: none;
+}
+
+#eposta{
+    /* border: 1px solid red; */
+    margin: 0 3rem;
+}
+
+#parola{
+    margin: 0 3.1rem;
+}
+
+.bilgi{
+    margin-right: 4rem;
+    border: 1px solid;
+    padding:1rem;
+}
+
+#ad{
+    margin: 0 4.5rem;
+}
+
+#soyad{
+    margin: 0 3.2rem;
+}
+
+.container_3{
+    margin-right: 4rem;
+    border: 1px solid;
+    padding: 1rem;
+}
+
+#sehir{
+    margin: 0 3.3rem;
+}
+
+.container_4{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+
+.select{
+    /* border: 1px solid; */
+    margin:  0 2rem;
+}
+
+.container_5{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.check{
+    /* border: 1px solid red; */
+    margin: 0 0.9rem;
+}
+
+.kaydet{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+}

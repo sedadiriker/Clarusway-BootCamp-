@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Ugulaması</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <h1>Lütfen Formu Eksiksiz Doldurunuz.</h1>
+    <hr />
+    <br />
+
+    <form action="./result.html" method="get">
+        <div class="container_1">
+            <h3>Hesap Bilgileriniz</h3>
+            <div class="hesap_bilgi">
+                <label for="kullanıcı_Adı">Kullanıcı Adı : </label>
+                <input class="input" type="text" name="Kullanıcı_adı" id="kullanıcı_Adı" placeholder="Kullanıcı adı giriniz"
+                    required />
+                <br /><br />
+                <label for="eposta">Eposta :</label>
+                <input class="input" type="text" name="ePosta" id="eposta" placeholder="Eposta giriniz" required />
+                <br /><br />
+                <label for="parola">Parola : </label>
+                <input class="input" type="password" name="parola" id="parola" placeholder="parola giriniz" required />
+            </div>
+        </div>
+
+        <br />
+
+        <div class="container_2">
+            <h3>Kişisel Bilgileriniz</h3>
+            <div class="bilgi">
+                <label for="ad">Ad : </label>
+                <input class="input" type="text" name="ad" id="ad" required placeholder="Adınızı giriniz" />
+                <br /><br />
+                <label for="soyad">Soyad : </label>
+                <input class="input" type="text" name="soyad" id="soyad" required placeholder="Soyadınızı giriniz" />
+            </div>
+            <br />
+
+            <div class="container_3">
+                <div>
+                    <label for="sehir">Şehir : </label>
+                    <select name="sehir" id="sehir">
+                        <option value="">Seçiniz</option>
+                        <option value="ankara">Ankara</option>
+                        <option value="bursa">Bursa</option>
+                        <option value="tekirdag">tekirdağ</option>
+                        <option value="yozgat">yozgat</option>
+                    </select>
+                </div>
+                <br />
+
+                <div class="container_4">
+                    <span>Cinsiyet :</span>
+                    <div class="select">
+                        <input class="radio" type="radio" name="cinsiyet" id="erkek" onclick="document.getElementById('erkek').style.color('black')"/>
+                        <label for="erkek">Erkek</label>
+
+                        <input class="radio" type="radio" name="cinsiyet" id="kadın" />
+                        <label for="kadın">Kadın</label>
+                    </div>
+                </div>
+                <br />
+
+                <div class="container_5">
+                    <span>Hobileriniz : </span>
+                    <div class="check">
+                        <input class="checkbox" type="checkbox" name="hobi_1" id="sinema" />
+                        <label for="sinema">Sinema</label>
+
+                        <input type="checkbox" name="hobi_2" id="gezmek" />
+                        <label for="gezmek">Gezmek</label>
+
+                        <input type="checkbox" name="hobi_3" id="spor" />
+                        <label for="spor">Spor</label>
+
+                        <input type="checkbox" name="hobi_4" id="kitap" />
+                        <label for="kitap">Kitap</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="kaydet">
+            <input class="kaydet" type="submit" value="Kaydet" />
+        </div>
+    </form>
+</body>
+
+</html>
