@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+
+}
+.container{
+    background-image: url(https://geniuscaralarm.com/wp-content/uploads/2015/05/parallax-image.jpg);
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax{
+    /* border: 1px solid red; */
+    font-size: 5rem;
+    background-color: rgb(28, 28, 28);
+    color: white;
+    letter-spacing: 5px;
+}
+
+.text{
+    text-align: justify;
+    padding: 4rem;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    color: gray;
+
+}
+
+.text h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: rgb(54, 54, 54);
+}
+.container-1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKHI5t7iurrHBfnXJWc0WzPDqtKkDq7FhF9B-P63NejmzUASvcC5FNQfaIUroxHKuBZk8&usqp=CAU);
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax2{
+    font-size: 40px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform:uppercase;
+}
+
+
+.text-2{
+    /* border: 1px solid red; */
+    color: white;
+    background-color: black;
+    padding: 4rem;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.container-2{
+    background-image: url(https://fireart.studio/wp-content/uploads/2018/04/1150.jpg.webp);
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
