@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+
+        <h1 id="title">NET<span>FLIX</span></h1>
+        <p id="description">Thank you for signing up at Netflix. Tell us more about your self</p>
+
+        <form action="" id="survey-form">
+            <div class="box">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+            </div>
+
+            <div class="box">
+                <label for="age">Age</label>
+                <input type="text" name="age" id="age" placeholder="Age">
+            </div>
+
+            <div class="box">
+                <label for="email">Email</label>
+                <input type="text" name="eMail" id="email" placeholder="Enter your email">
+            </div>
+
+            <div class="box">
+                <label for="content-type">Content type</label>
+                <select name="content_type" id="content-type">
+                    <option value="" disabled selected hidden>Series</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <span>Movie type</span><br>
+                <input type="checkbox" name="type-1" id="comedy" value="comedy">
+                <label for="comedy">Comedy</label><br>
+
+                <input type="checkbox" name="type-2" id="action" value="action">
+                <label for="action">Action</label><br>
+
+                <input type="checkbox" name="type-3" id="romance" value="romance">
+                <label for="romance">Romance</label>
+            </div>
+
+            <div class="box">
+                <span>Gender</span><br>
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label><br>
+
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label><br>
+
+                <input type="radio" name="gender" id="other">
+                <label for="other">Other</label>
+            </div>
+
+            <div class="box">
+                <label for="comment">Feed back</label> <br>
+                <textarea name="comment" id="comment" cols="45" rows="4" style="resize: none;" placeholder="Any comment"></textarea><br>
+                <input type="submit" name="submit" id="submit" value="Submit">
+            </div>           
+        </form>
+    </div>
+</body>
+</html>
