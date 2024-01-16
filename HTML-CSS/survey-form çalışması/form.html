@@ -5,27 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Form</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="container">
 
-        <h1 id="title">NET<span>FLIX</span></h1>
+        <h1 id="title">Net<span>Flıx</span> </h1>
         <p id="description">Thank you for signing up at Netflix. Tell us more about your self</p>
 
-        <form action="" id="survey-form">
+        <form action="./result.html" id="survey-form" method="get">
             <div class="box">
                 <label for="name">Name</label>
-                <input type="text" name="name" id="name" placeholder="Enter your name">
+                <input class="input-text" type="text" name="name" id="name" placeholder="Enter your name">
             </div>
 
             <div class="box">
                 <label for="age">Age</label>
-                <input type="text" name="age" id="age" placeholder="Age">
+                <input class="input-text" type="text" name="age" id="age" placeholder="Age">
             </div>
 
             <div class="box">
                 <label for="email">Email</label>
-                <input type="text" name="eMail" id="email" placeholder="Enter your email">
+                <input class="input-text" type="text" name="eMail" id="email" placeholder="Enter your email">
             </div>
 
             <div class="box">
@@ -37,7 +43,7 @@
 
             <div class="box">
                 <span>Movie type</span><br>
-                <input type="checkbox" name="type-1" id="comedy" value="comedy">
+                <input type="checkbox"  name="type-1" id="comedy" value="comedy">
                 <label for="comedy">Comedy</label><br>
 
                 <input type="checkbox" name="type-2" id="action" value="action">
