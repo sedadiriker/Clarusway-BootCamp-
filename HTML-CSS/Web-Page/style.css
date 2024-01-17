@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    margin:4rem 9rem;
+    background-color: rgb(41, 39, 39);
+    border-radius: 2%;
+}
+
+#title{
+    font-family: 'Lobster', cursive;
+    font-size: 90px;
+    margin: 3rem 0;
+}
+.color-red{
+    color: red;
+    font-family: 'Lobster', cursive;
+}
+#head-2 h2{
+    font-size: 24px;
+    margin: 1rem 0;
+}
+#image{
+    width: 400px;
+    border-radius: 10%;
+    box-shadow: 2px 2px 500px red;
+}
+#date{
+    font-size: 16px;
+    padding: 1rem;
+}
+.partner{
+    /* border: 1px solid red; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+    width: 864px;
+    margin:auto;
+}
+#main-part{
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+#paragraf{
+    margin-bottom: 1rem;
+}
+
+#list li{
+    list-style-position: outside;
+    line-height: 3rem;
+    text-align: left;
+    margin-left: 1.5rem;
+}
+
+#end{
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.wiki{
+    background-color: black;
+    border: 2px solid orange;
+    padding: 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.wiki:hover{
+    color: red;
+    background-color: rgb(41, 39, 39);
+}
