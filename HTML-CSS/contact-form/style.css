@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/plant-2004483_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container{
+    width: 70vw;
+    height: 100vh;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact{
+    width: 70%;
+    height: 75%;
+    background: rgba(255, 255, 255, 0.5)
+    
+}
+
+#head{
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+#form{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.input{
+    border: 1px solid rgb(203, 222, 203);
+    margin: 12px;
+    width: 50%;
+    height: 2.5rem;
+    text-align: baseline;
+    padding: 10px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.form-input{
+    text-align: center;
+}
+
+#comment{
+    height: 7rem;
+
+}
+.form-submit{
+    text-align: center;
+    height: 4rem;
+}
+#submit{
+    background-color: rgb(202, 173, 99);
+    border: 1px solid rgb(202, 173, 99);
+    width: 15%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+#submit:hover{
+    background-color: rgb(74, 85, 56);
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+
+#or{
+    text-align: center;
+    width: 70%;
+    margin:auto;
+}
+
+hr {
+    display: inline-block;
+    width: 30%; 
+    border: none;
+    height: 1px;
+    background-color: black;
+    margin: 1rem 10px; 
+}
+
+#contact-us {
+    width: 80%;
+    margin: 2rem auto;
+    text-align: center;
+    height: 20%;
+}
+
+#contact-us i{
+    font-size: 100%;
+    color: rgb(79, 99, 48);
+    margin-left: 1rem;
+}
+
+
