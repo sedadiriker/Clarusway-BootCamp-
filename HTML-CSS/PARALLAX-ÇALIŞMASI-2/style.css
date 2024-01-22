@@ -53,6 +53,7 @@ html {
 }
 
 #container-text {
+    border: 1px solid red;
     text-align: center;
     font-size: 3rem;
     letter-spacing: 0.5rem;
@@ -97,10 +98,10 @@ html {
 }
 
 .content p{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin: 1rem 0;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .content-2{
