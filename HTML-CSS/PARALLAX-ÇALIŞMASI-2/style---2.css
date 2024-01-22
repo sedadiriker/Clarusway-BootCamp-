@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body,html{
+    line-height: 1.8rem;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+
+/*? .container-img */
+.container-img{
+    background-image: url(./img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+    display: flex; /* Text in ortalanması sağlandı*/
+    justify-content: center; /* Text in ortalanması sağlandı*/
+    align-items: center; /* Text in ortalanması sağlandı*/
+    opacity: 0.7;
+}
+
+#text{
+    border: 1px solid blue;
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+#text p{
+    padding: 2rem;
+    color: white;
+    background-color: black;
+    letter-spacing: 8px;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    outline: 8px solid purple;
+    outline-offset: 1rem;
+    line-height: 5rem;
+}
+
+/*? .content */
+
+.content{
+    padding: 5rem 6rem; 
+    text-align: center;
+    font-size: 1rem;
+    background-color: white;
+    color: gray;
+}
+
+.content h2{
+    /* border: 1px solid blue; */
+    font-size: 2rem;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.content p{
+    /* border: 1px solid red; */
+    margin: 1rem 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+/*? #container-2  */
+
+#container-2{
+    background-image: url(./img/bg2\ \(2\).jpg);
+    min-height: 80%;
+    text-align: center;
+}
+
+.text-2-img{
+    width: 30%; /* Clarusway ikonlu yazı*/
+}
+
+/*?.content-2 */
+.content-2{
+    background-color: black;
+    color: white;
+}
+
+/*? #container-3 */
+
+#container-3{
+    background-image: url(./img/bg3.jpg);
+    min-height: 80%;
+}
+
+/*?  #container-4 */
+
+#container-4{
+    background-image: url(./img/bg4.jpg);
+    min-height: 80%;
+}
+
+@media (max-width: 568px) {
+    .background-container--image1,
+    .background-container--image2,
+    .background-container--image3,
+    .background-container--image4 {
+        background-attachment: scroll;
+    }
+}
