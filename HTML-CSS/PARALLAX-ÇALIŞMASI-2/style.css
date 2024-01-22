@@ -53,9 +53,9 @@ html {
 }
 
 #container-text {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     letter-spacing: 0.5rem;
     color: white;
 }
