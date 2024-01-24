@@ -13,7 +13,7 @@ Winter: December 21 - February 20 // 21 Aralık - Ocak - 20 Şubat
 
 Inputs should 1-12 for month and 1-31 for day. If it is outside these values, an error message should be displayed on the console.
 
-    ```jsx
+```jsx
     const month = Number(prompt('Enter a month (1-12):'));
     const day = Number(prompt('Enter a day (1-31):'));
 
@@ -37,7 +37,7 @@ Inputs should 1-12 for month and 1-31 for day. If it is outside these values, an
 
     console.log(`The season for ${month}/${day} is ${season}.`);
     }
-    ```
+```
 
 2. Leap Year Checker :
 Write a JavaScript program that checks if a given year is a leap year. Leap years have a special property where they have an extra day, February 29th. The program uses conditional statements to determine whether the input year is a leap year or not. (Do not use loops or functions)
@@ -46,7 +46,7 @@ Your program checks for leap years based on the following conditions:
 If the year is divisible by 4 and not divisible by 100, it's a leap year.
 If the year is divisible by 400, it's a leap year.
 
-    ```jsx
+```jsx
     const year = +prompt('Enter year');
 
     const isLeapYear =
@@ -57,4 +57,4 @@ If the year is divisible by 400, it's a leap year.
     } else {
         console.log(`${year} is not a leap year.`);
     }
-    ```
+```
