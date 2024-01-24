@@ -1,0 +1,144 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5rem;
+    word-spacing: 5px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+body{
+    padding-top: 12rem;
+}
+.head-üst{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(241,103,53,1) 100%, rgba(45,60,253,1) 100%);
+    
+}
+
+.logo{
+    margin-left: 2rem;
+    width: 10%;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 1rem;
+}
+.üst-nav{
+    margin-right: 5rem;
+    font-size: 1.5rem;
+}
+
+.üst-nav a{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.üst-nav a:hover{
+    color: red;
+    text-shadow: 2px 2px 3px black;
+}
+
+.head-nav{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background-color: rgb(202, 186, 128);
+    font-size: 1.5rem;
+}
+
+.head-nav a{
+    text-decoration: none;
+    transition: transform 1s ease-in-out;
+    color: rgb(75, 75, 125);
+    font-weight: bold;
+}
+
+.head-nav a:hover{
+    transform: scale(1.2);
+    transition: transform 1s ease-in;
+    text-shadow: 2px 3px 3px rgb(240, 229, 229);
+
+}
+
+.banner {
+    width: 50%; 
+    position: relative;
+}
+
+.banner img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.banner{
+    width: 60%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 4px;
+    margin-right: 20px; 
+}
+
+
+.img-content{
+    position: absolute;
+    top: 7rem;
+    left: 7rem;
+    color: white;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.img-content button{
+    margin-left: 2rem;
+}
+
+.content{
+    text-align: justify;
+    margin: 12px 30px;
+}
+
+.sticky{
+    text-align: end;    
+    font-size: 3rem;
+    position: sticky;
+    right: 0;
+    bottom: 10px;
+}
+
+.sticky i{
+    text-align: center;
+    width: 2.6rem;
+    height: 2.6rem;
+    background-color: rgb(250, 5, 5);
+    color: rgb(253, 253, 253);
+    border-radius: 100%;
+    font-size: 2.5rem;
+}
+
+
+
+
+
