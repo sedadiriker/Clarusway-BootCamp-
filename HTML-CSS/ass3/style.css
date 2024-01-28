@@ -12,7 +12,7 @@ body {
 /*? header */
 header {
     background: rgb(253,29,29);
-background: linear-gradient(180deg, rgba(253,29,29,1) 8%, rgba(241,241,241,1) 100%);
+    background: linear-gradient(180deg, rgba(253,29,29,1) 8%, rgba(241,241,241,1) 100%);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -27,6 +27,7 @@ header p {
 }
 
 .header-nav {
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     gap: 3rem;
@@ -121,27 +122,42 @@ header p {
     transition: bottom 1s ease-in;
 }
 .audio{
-    opacity: 1;
+    opacity: 0;
     width: 10%;
-    display: flex;
 }
-
-/* style.css */
 
 .audio {
-    max-width: 400px; /* İsteğe bağlı: Maksimum genişlik */
+    max-width: 400px;
+}
+/* audio::-webkit-media-controls-timeline {
+    background-color: #e4b4b4; 
 }
 
-/* Ses çubukları rengini ayarlar */
-audio::-webkit-media-controls-timeline {
-    background-color: #e4b4b4; /* İsteğe bağlı: Çizgi arkaplan rengi */
-}
-
-/* Ses kontrol düğmeleri rengini ayarlar */
 audio::-webkit-media-controls-panel {
-    background-color: #f6bbbb; /* İsteğe bağlı: Ses kontrol paneli arkaplan rengi */
+    background-color: #f6bbbb; 
+} */
+
+.button{
+    position: relative;
+    overflow: hidden;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
+.button:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 0 20px 35px;
+    border-color: transparent transparent transparent white;
+}
 
 
 /*? footer */

@@ -17,15 +17,16 @@
                 <a href="#">Home</a>
                 <a href="#">About</a>
                 <a href="#">Galery</a>
-                <audio class="audio" controls autoplay>
-                    <source src="./audio/Anonim Türküler • İzmirin Kavakları.m4a" type="audio/mp4">
-                    Your browser does not support the audio element.
-                </audio>
+                <button class="button" onclick="playAudio()"></button>
+                <a onclick="playAudio()"></a>
             </nav>
         </header>
         <main>
             <div class="main-container">
-                
+                <audio class="audio" controls autoplay>
+                    <source src="./audio/Anonim Türküler • İzmirin Kavakları.m4a" type="audio/mp4">
+                    Your browser does not support the audio element.
+                </audio>
                 <div class="image-container">
                     <div class="image-box">
                         <img src="./images/canakkale-4566133_1280.jpg" alt="" >
@@ -69,5 +70,12 @@
             <p>©2024 Turkey Photograph Galery by <b>Seda</b></p>
         </footer>
     </div>
+
+    <script>
+        function playAudio() {
+            var audio = document.querySelector('.audio');
+            audio.play();
+        }
+    </script>
 </body>
 </html>
