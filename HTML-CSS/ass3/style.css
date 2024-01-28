@@ -122,10 +122,28 @@ header p {
 }
 .audio{
     opacity: 1;
-    width: 6%;
+    width: 10%;
     display: flex;
-    justify-content: center;
 }
+
+/* style.css */
+
+.audio {
+    max-width: 400px; /* İsteğe bağlı: Maksimum genişlik */
+}
+
+/* Ses çubukları rengini ayarlar */
+audio::-webkit-media-controls-timeline {
+    background-color: #e4b4b4; /* İsteğe bağlı: Çizgi arkaplan rengi */
+}
+
+/* Ses kontrol düğmeleri rengini ayarlar */
+audio::-webkit-media-controls-panel {
+    background-color: #f6bbbb; /* İsteğe bağlı: Ses kontrol paneli arkaplan rengi */
+}
+
+
+
 /*? footer */
 
 footer {
