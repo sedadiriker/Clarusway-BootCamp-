@@ -121,8 +121,8 @@ header p {
     transition: bottom 1s ease-in;
 }
 .audio{
-    opacity: 0;
-    width: 10%;
+    opacity: 1;
+    width: 6%;
     display: flex;
     justify-content: center;
 }
