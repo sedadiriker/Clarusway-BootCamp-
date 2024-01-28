@@ -128,7 +128,7 @@ header i{
     transition: bottom 1s ease-in;
 }
 #audio-play{
-    opacity: 0;
+    opacity: 1;
     width: 10%;
 }
 
