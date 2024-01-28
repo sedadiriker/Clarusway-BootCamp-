@@ -68,7 +68,9 @@ header i{
     color: white;
     cursor: pointer;
 }
-
+header i:hover{
+    color: red
+}
 
 /*? main */
 .main-container {
@@ -128,7 +130,7 @@ header i{
     transition: bottom 1s ease-in;
 }
 #audio-play{
-    opacity: 1;
+    opacity: 0;
     width: 10%;
 }
 
