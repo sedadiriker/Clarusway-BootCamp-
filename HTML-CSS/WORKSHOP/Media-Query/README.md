@@ -1,1 +1,1 @@
-<a href="https://imgflip.com/gif/8eh9lw">via Imgflip</a>
+![media](./8eh9lw.gif)
