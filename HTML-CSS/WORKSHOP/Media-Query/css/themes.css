@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Single+Day&family=Sixtyfour&display=swap');
+
+:root{
+
+/*? Font-Family */
+
+--ff-protest : 'Protest Riot', sans-serif;
+--ff-single_day : 'Single Day', cursive;
+--ff-Sixtyfour: 'Sixtyfour', sans-serif;
+
+/*? Font-size */
+
+--fs-m : 1rem;
+--fs-l : 1.5rem;
+--fs-xl : 2rem;
+
+/*? Background-Color  */
+
+--bg-color-bisque : bisque;
+--bg-color-1279 : rgb(168, 206, 193);
+--bg-color-darygrey : darkgrey;
+--bg-color-480 : rgb(73, 113, 73);
+
+/*? color */
+
+--color-one : red;
+--color-green : green;
+}
