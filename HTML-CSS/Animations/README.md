@@ -1,7 +1,7 @@
-<h1 style="text-align: center;">TRANSITION</h1>
+<h1 align="center">TRANSITION</h1>
 CSS Transition Özelliği, bir elemanın iki state’i arasında transition, yani geçiş yapmanızı sağlar. Genellikle hover gibi psuedo sınıfları ile kullanılır.
 
-<p style="color: red;">transition: property name | duration | easing function | delay;
+<p color = 'red'>transition: property name | duration | easing function | delay;
 </p>
 transition-property: transition’ı uygulamak istediğimiz bir veya birden fazla CSS property’sini belirtiriz.
 transition-duration: Transition işleminin ne kadar sürede gerçekleşeceğini belirtiriz. Tanımladığınız her bir transition-property için dilerseniz tek bir duration belirtebilirsiniz. Yada her bir property için ayrı ayrı transition süresi belirtebilirsiniz.
