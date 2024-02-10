@@ -4,7 +4,7 @@ CSS Transition Özelliği, bir elemanın iki state’i arasında transition, yan
 
 **transition: property name | duration | easing function | delay;**
   
-1. __transition-property:__ transition’ı uygulamak istediğimiz bir veya birden fazla CSS property’sini belirtiriz.
+1. _transition-property:_ transition’ı uygulamak istediğimiz bir veya birden fazla CSS property’sini belirtiriz.
 **2. transition-duration:** Transition işleminin ne kadar sürede gerçekleşeceğini belirtiriz. Tanımladığınız her bir transition-property için dilerseniz tek bir duration belirtebilirsiniz. Yada her bir property için ayrı ayrı transition süresi belirtebilirsiniz.
 **3. transition-timing-function:** transition’ın süresince hangi hızda ve hangi aşamada olacağını belirtiriz.
 * **ease:** Transition-timing-functionın default değeridir. Transition yavaş başlar ortalarına doğru hızlanır ve yavaşlayarak sona erer.
