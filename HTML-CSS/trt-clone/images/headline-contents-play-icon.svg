@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-901.000000, -711.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(901.000000, 711.000000)">
+                <path d="M10,20 C11.4826852,20 12.8900041,19.6773188 14.1555617,19.0983515 C17.6040739,17.5207261 20,14.0401623 20,10 C20,4.4771525 15.5228475,0 10,0 C4.4771525,0 0,4.4771525 0,10 C0,15.5228475 4.4771525,20 10,20 Z" id="Oval" fill="#FFFFFF"></path>
+                <path d="M10,0 C4.479862,0 0,4.479862 0,10 C0,15.520138 4.479862,20 10,20 C15.520138,20 20,15.520138 20,10 C20,4.479862 15.520138,0 10,0 Z M7.99969999,14.5001125 L7.99969999,5.4998875 L13.99985,10 L7.99969999,14.5001125 L7.99969999,14.5001125 Z" id="Shape" fill="#CF1D39"></path>
+            </g>
+        </g>
+    </g>
+</svg>
