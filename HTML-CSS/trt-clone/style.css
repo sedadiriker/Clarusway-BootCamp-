@@ -7,7 +7,7 @@
     font-family: var(--ff-poppins)
 }
 .container {
-    width: 100vw;
+    max-width: 2700px;
     margin: auto;
 }
 /*! HEADER */
@@ -89,7 +89,7 @@ header>div {
     justify-content: space-between;
     align-items: center;
     width: 84%;
-    margin: 5rem auto 0;
+    margin: 7rem auto 0;
 }
 
 .left-section {
@@ -351,7 +351,12 @@ main {
     text-decoration: underline;
     cursor: pointer;
 }
-
+/* .mansetler-container{
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 .mansetler-grid {
     width: 100%;
     margin: auto;
