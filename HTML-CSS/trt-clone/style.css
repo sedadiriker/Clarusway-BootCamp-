@@ -6,11 +6,12 @@
     box-sizing: border-box;
     font-family: var(--ff-poppins)
 }
-
-/*! HEADER */
 .container {
-    max-width: 1500px;
+    width: 100vw;
+    margin: auto;
 }
+/*! HEADER */
+
 
 header {
     width: 100%;
@@ -354,10 +355,10 @@ main {
 .mansetler-grid {
     width: 100%;
     margin: auto;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     display: grid;
-    grid-template-columns: repeat(3, 270px) 290px;
-    grid-template-rows: repeat(2, 160px) 260px;
+    grid-template-columns: repeat(3, 18vw) 25vw;
+    grid-template-rows: auto;
     grid-template-areas:
         'big-img big-img text content'
         'big-img big-img text content'
@@ -539,10 +540,10 @@ main {
 }
 
 .last-grid {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     display: grid;
-    grid-template-columns: repeat(4, 278px);
-    grid-template-rows: repeat(2, 160px) 260px;
+    grid-template-columns: repeat(4, 19.5vw);
+    grid-template-rows: auto;
     grid-template-areas:
         'big-img big-img big-img-2 big-img-2'
         'big-img big-img big-img-2 big-img-2'
@@ -697,9 +698,6 @@ main {
 }
 
 @media screen and (max-width:1300px) {
-    main {
-        width: 85%;
-    }
 
     header>div {
         width: 75%;
@@ -723,17 +721,6 @@ main {
 
     .nav-2 {
         width: 20%;
-    }
-
-    .mansetler-grid {
-        grid-template-columns: repeat(3, 235px) 200px;
-        grid-template-rows: repeat(2, 200px) 320px;
-    }
-
-    .last-grid {
-        grid-template-columns: repeat(4, 235px);
-        grid-template-rows: repeat(2, 160px) 280px;
-        gap: 1rem;
     }
 
     .absolute-text {
@@ -835,17 +822,6 @@ main {
         font-size: 1.5rem;
     }
 
-    .mansetler-grid {
-        grid-template-columns: repeat(3, 220px) 200px;
-        grid-template-rows: repeat(2, 170px) 320px;
-    }
-
-    .last-grid {
-        grid-template-columns: repeat(4, 210px);
-        grid-template-rows: repeat(2, 160px) 280px;
-        gap: 1rem;
-    }
-
     .column-text {
         overflow: hidden;
     }
@@ -861,17 +837,6 @@ main {
     main,
     .head-2 {
         width: 95%;
-    }
-
-    .mansetler-grid {
-        grid-template-columns: repeat(3, 200px) 170px;
-        grid-template-rows: repeat(2, 175px) 320px;
-    }
-
-    .last-grid {
-        grid-template-columns: repeat(4, 200px);
-        grid-template-rows: repeat(2, 160px) 280px;
-        gap: 1rem;
     }
 
     .absolute-text {
@@ -922,12 +887,10 @@ main {
     .box {
         width: 47%;
     }
-
-    .mansetler-grid {
-        grid-template-columns: repeat(3, 210px);
-        grid-template-rows: repeat(3, 175px) 440px;
+    .mansetler-grid{
+        grid-template-columns: repeat(3, 25vw);
+        grid-template-rows: auto;
     }
-
     .grid-big-img {
         grid-area: 1/1/span 2/ span 2;
     }
@@ -941,15 +904,8 @@ main {
     }
 
     .column-text {
-        margin-top: 5rem;
         grid-area: 4/1/span 1/span 4;
         overflow: visible;
-    }
-
-    .last-grid {
-        grid-template-columns: repeat(4, 200px);
-        grid-template-rows: repeat(2, 160px) 280px;
-        gap: 1rem;
     }
 
     .column-content {
