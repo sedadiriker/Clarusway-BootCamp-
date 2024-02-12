@@ -355,7 +355,7 @@ main {
 .mansetler-grid {
     width: 100%;
     margin: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: repeat(3, 18vw) 25vw;
     grid-template-rows: auto;
@@ -540,7 +540,7 @@ main {
 }
 
 .last-grid {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: repeat(4, 19.5vw);
     grid-template-rows: auto;
