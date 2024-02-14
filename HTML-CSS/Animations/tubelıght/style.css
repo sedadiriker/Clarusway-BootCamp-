@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #07252d;
+}
+h2{
+    position: relative;
+    font-size: 6vw;
+    letter-spacing: 15px;
+    color: #0e3742;
+    text-transform: uppercase;
+    width: 90%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+    line-height: 0.70em;
+    outline: none;
+    animation: animation 10s linear infinite;
+}
+
+@keyframes animation {
+    0%,18%,50%,22%,65%,80%,2%{
+        color: #0e3742;
+        text-shadow: none;
+    }
+    38%,75%,12%,95%,86%,5%,100%{
+        color: rgba(164, 15, 15, 0.635);
+        text-shadow: 0 0 10px #c46f6f,
+        0 0 20px #e7d5d4,
+        0 0 40px #03bcf4,
+        0 0 80px #9d6961,
+        0 0 160px #97c9d8;
+    }
+}
