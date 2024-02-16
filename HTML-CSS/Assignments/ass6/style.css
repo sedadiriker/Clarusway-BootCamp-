@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+    padding: 1rem;
+}
+header{
+    /* border: 1px solid red; */
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+.logo{
+    /* border: 1px solid red; */
+    width: 50px;
+    height: 50px;
+}
+.logo img{
+    width: 100%;
+    transition: 3s;
+}
+.logo img:hover{
+    cursor: pointer;
+    transform: rotate(360deg) scale3d(2,1.5,1);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: 1s;
+}
+nav a::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: brown;
+    transition: 1s;
+}
+nav a:hover::after{
+    width: 100%;
+}
+nav a:hover{
+    color: brown;
+    
+}
+
+
+main{
+    /* border: 1px solid black; */
+    width: 95%;
+    margin: auto;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+main h1{
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: brown;
+    margin: 2rem 0 3rem;
+}
+
+
+.images{
+    width: 95%;
+    margin: auto;
+    
+}
+
+.images img{
+    width: 20%;
+    margin-right: 1rem;
+    transition: 2s;
+    border-radius: 20px;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.images img:hover{
+    cursor: pointer;
+    transform: scale(2);
+}
+.icons{
+    /* border: 1px solid red; */
+    width: 95%;
+    margin: auto;
+    text-align: end;
+    margin-top: 10rem;
+}
+
+.icons i{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+@keyframes move {
+    to{
+        transform: scale(2);
+    }
+}
+
+
+@media screen and (max-width:780px) {
+    nav{
+        gap: 12px;
+    }
+    nav a{
+        font-size: 1rem;
+    }
+    main h1{
+        font-size: 2rem;
+    }
+    .icons i{
+        margin-top: 0rem;
+        font-size: 1.2rem;
+    }
+    .images img{
+        width: 45%;
+        margin-bottom: 2rem;
+    }
+}
