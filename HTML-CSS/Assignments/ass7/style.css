@@ -1,0 +1,134 @@
+header{
+    width: 100w;
+}
+
+.header-hr, .header-hr img{
+    width: 100%;
+}
+.navbar-brand, .navbar-brand span{
+    color: #FF6000;
+}
+
+.nav-btn button:last-child{
+    background-color: #919191;
+    font-size: 15px !important;
+    padding: 12px 2rem;
+}
+
+.nav-btn button:first-child{
+    border: 2px solid gray !important;
+    font-size: 15px;
+    padding: 12px 2rem;
+}
+.navbar form{
+    
+    width: 40%;
+}
+.form-control{
+    width: 100%;
+    border: 2px solid gray;
+    height: 50px !important;
+}
+
+.form-control::placeholder{
+    opacity: 0.5;
+}
+.container-xl form button:hover {
+    background-color: #919191 !important;
+    color: black !important;
+}
+.btn-outline-none{
+    background-color: #919191;
+    text-transform: uppercase;
+}
+.carousel-text img{
+    width: 100%;
+}
+.box{
+    cursor: pointer;
+    height: 400px !important;
+}
+.box img{
+    width: 100%;
+    height: 80%;
+    object-fit: contain;
+}
+.box button{
+    background-color: #FF6000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 3.8rem;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    width: 100%;
+    white-space: nowrap;
+}
+.box button:hover{
+    background-color: #BF4800;
+}
+.icons{
+    top: 3%;
+    right: 3%;
+    padding: 4px 7px;
+    border-radius: 50%;
+}
+
+.icons:hover{
+    cursor: pointer;
+    background-color: rgb(234, 232, 232);
+}
+
+@media screen and (max-width:990px) {
+    .container form{
+    
+        width: 60%;
+    }
+    .nav-btn button:last-child{
+        font-size: 10px !important;
+        padding: 10px 1rem;
+    }
+    
+    .nav-btn button:first-child{
+        font-size: 10px;
+        padding: 10px 1rem;
+    }
+    form button{
+        height: 40px;
+        font-size: 10px;
+    }
+    .form-control{
+        width: 100%;
+        height: 40px !important;
+    }
+    
+}
+
+
+@media screen and (max-width:780px) {
+    .navbar form{
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .nav-btn button:last-child{
+        font-size: 8px !important;
+        padding: 10px 12px;
+    }
+    
+    .nav-btn button:first-child{
+        font-size: 8px;
+        padding: 10px 12px;
+    }
+    .navbar-brand{
+        font-size: 1rem !important;
+    }
+
+    .navbar-brand p{
+        font-size: 8px !important;
+    }
+}
+
