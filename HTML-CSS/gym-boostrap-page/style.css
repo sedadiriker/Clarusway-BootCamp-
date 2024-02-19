@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header .navbar{
+    background-color: transparent !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5555;
+}
+.navbar-brand img{
+    width: 40%;
+    border-radius: 50%;
+    box-shadow: 5px -8px 10px black;
+}
+.navbar-collapse{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.navbar-collapse a{
+    margin-right: 4rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.navbar-collapse a:hover{
+    color: #F41D1E;
+}
+.navbar-collapse a::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 3px;
+    margin-top: 2rem;
+    background-color: #F41D1E;
+    transition: 1s;
+}
+.navbar-collapse a:hover::after{
+    width: 100%;
+}
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.image-1{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    background-image: url(./images/istockphoto-871070868-612x612.jpg);
+    background-size: cover;
+    background-position: left;
+    filter: grayscale(70) ;
+
+}
+.image-2{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    background-image: url(./images/istockphoto-872229036-612x612.jpg);
+    background-size: cover;
+    background-position: left;
+    filter: grayscale(70) ;
+
+}
+.image-3{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    background-image: url(./images/istockphoto-917897040-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(20) ;
+
+}
+.carousel-item::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85%;
+    height: 100%;
+    background: url(./images/mask.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    transform: scale(1.4);
+    mix-blend-mode: screen;
+    background-color: black;
+}
+
+.main-text{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    z-index: 1;
+}
+
+.main-text p:first-child{
+    font-family: "Protest Revolution", sans-serif;
+    color:#F41D1E;
+    font-size: 8vw;
+    transform: rotate(-7deg);
+    transform-origin: left;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.main-text p:last-child{
+    margin-left: 10rem;
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+    display: inline;
+}
+
+.main-text p:last-child::before{
+    content: '';
+    width: 20%;
+    height: 50px;
+    background-color: #F41D1E;
+    position: absolute;
+    top: -50%;
+    left: -2%;
+    z-index: -1;
+    transition: 1s;
+}
+
+.main-text p:last-child:hover::before {
+    width: 120%;
+    transition: 1s;
+}
+
+.main-right-text{
+    position: fixed;
+    top: 40%;
+    right: -3%;
+    transform: rotate(90deg);
+    color: white;
+    z-index: 40;
+}
+.main-right-text p{
+    background: linear-gradient(to right, #F41D1E, #6e4040);
+    padding: 10px 1.4rem;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: background-color 5s
+}
+
+.main-right-text p:hover{
+    background: linear-gradient(to right, #401919, #F41D1E);
+    transition: background-color 5s
+}
+
+.section-2{
+    margin-top: 10rem !important;
+    height: 100vh;
+}
+
+.section-2 h3{
+    font-family: "Protest Revolution", sans-serif;
+    color: #F41D1E;
+    font-weight: bold;
+    font-size: 3.5rem;
+    transition: 2s linear;
+}
+.animasyon {
+    animation-name: move-top;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: inherit;
+}
+.section-2 p{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-top: -55px;
+}
+.section-2>div{
+    width: 32%;
+}
+.section-2 p::first-letter{
+    font-size: 5rem;
+}
+
+.section-2 span{
+    font-size: 5rem;
+}
+
+.section-2 img{
+    cursor: pointer;
+    width: 100%;
+    height: 70%;
+    transition: 1s;
+    opacity: 0.5;
+    filter: grayscale(100) brightness(60%);
+    transform-origin: center center;
+}
+.section-2 img:hover{
+    transform: scale(1.02);
+    filter: none;
+    box-shadow: 2px 3px 10px black;
+}
+
+.animasyon-1{
+    animation-name: move-top-2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: inherit;
+}
+.relative{
+    /* border: 1px solid red; */
+    width: 30%;
+    height: 45%;
+    position: relative;
+}
+.img-text{
+    cursor: pointer;
+    position: absolute;
+    bottom: 50%;
+    left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+.img-text i{
+    color:#F41D1E ;
+    position: absolute;
+    bottom: -80%;
+    left: 0;
+    
+}
+.img-1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation-delay: 1s;
+
+}
+.img-2 {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    animation-delay: .8s;
+
+}
+.img-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-delay: .3s;
+}
+.img-4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation-delay: 1.2s;
+
+}
+.img-5 {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    animation-delay: 1s;
+
+}
+.img-6 {
+    position: absolute;
+    top: 0;
+    left: 0;    
+    animation-delay: .5s;
+
+}
+
+.section-3{
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.sect-3-image{
+    /* border: 1px solid red; */
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-image: url(./images/young-woman-1333600_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.anim-text{
+    white-space: nowrap;
+}
+.sect-3-image::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(./images/mask.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    transform: scale(1.4);
+    mix-blend-mode: screen;
+    background-color: black;
+}
+
+.section-3 p:first-child{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: white;
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 6rem;
+    letter-spacing: 2px;
+    transform: rotate(-7deg);
+    transform-origin: left;
+    text-decoration: underline;
+}
+
+.sect-3-text{
+    margin-top: 7rem;
+}
+
+.title p, .title span{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.title p{
+    margin-top: -30px;
+}
+.title span{
+    font-family: "Protest Revolution", sans-serif;
+    color:#F41D1E;
+}
+.text-3 span{
+    text-align: justify;
+}
+.sect-3-box i{
+    font-size: 2rem;
+    color: white;
+    background-color:#F41D1E;
+    padding: 1rem;
+    border-radius: 20px;
+}
+.box-text span{
+    font-weight: bold;
+    letter-spacing: -2px;
+    font-size: 2rem;
+}
+.sect-3-box>div:nth-child(odd){
+    background-color: #222637;
+}
+.sect-3-box>div:nth-child(even){
+    background-color: #F3F3F3;
+}
+
+
+.sect-3-box>div{
+    width: 32%;
+}
+
+.sect-4 img{
+    width: 100%;
+}
+
+.sect-4-text{
+    cursor: pointer;
+    bottom: 5%;
+    right: 20%;
+    z-index: 1;
+}
+
+.sect-4-text::before{
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    content: '';
+    width: 20%;
+    height: 40px;
+    background-color: #F41D1E;
+    display: block;
+    z-index: -1;
+    transition: 3s;
+}
+
+.sect-4-text:hover::before{
+    width: 120%;
+    transition: 3s;
+}
+
+.contact span{
+    font-family: "Protest Revolution", sans-serif;
+    color:#F41D1E;
+    font-size: 4rem;
+    margin-bottom: -50px;
+}
+#isim, #tel{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.474);
+    padding: 12px;
+}
+
+#isim:hover , #tel:hover, #mesaj:hover{
+    border-bottom: 1px solid rgba(255, 0, 0, 0.625);
+}
+
+#mesaj{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.501);
+}
+#submit{
+    width: 30%;
+    margin:2rem  auto;
+    border: none;
+    background-color: white;
+    transition: 2s;
+    padding: 12px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-weight: bold;
+}
+
+#submit:hover{
+    background-color: #F41D1E;
+    transition: 2s;
+    color: white;
+
+}
+
+.contact-icons i:hover{
+    color:#F41D1E;
+    cursor: pointer;
+}
+
+.footer .logo img{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 2px 3px 10px white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.lok-icons i{
+    cursor: pointer;
+    color: #F41D1E;
+}
+
+.footer{
+    padding: 7rem 5rem;
+}
+
+
+@keyframes move-top {
+    from{
+        transform: translateY(50px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes move-top-2 {
+    from{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .carousel-item::before{
+        width: 95%;
+        background-position: center;
+    }
+
+    .main-right-text{
+        right: -50px;
+    }
+
+    .section-2>div{
+        width: 45%;
+        height: 20%;
+    }
+
+    .img-1,.img-2, .img-3, .img-4, .img-5, .img-6{
+        top: 0;
+        left: 0;
+    }
+    .section-2 img{
+        height: 100%;
+    }
+    .section-2 p{
+        margin-top: -140px;
+    }
+    .sect-3-box>div{
+        width: 45%;
+    }
+    .box-text span{
+        font-weight: bold;
+        letter-spacing: -2px;
+        font-size: 1.5rem;
+    }
+    .grd-box i{
+        font-size: 1.5rem;
+    }
+    .sect-3-image{
+        height: 50vh;
+        
+    }
+}
+
+@media screen and (max-width:500px) {
+    .carousel-item::before{
+        width: 75%;
+        background-position: bottom ;
+    }
+    .image-1{
+        background-position: left;
+    }
+    .image-2{
+        background-position: left;
+    }
+    .main-right-text p{
+        font-size: 1rem;
+        padding: 8px 14px;
+    }
+    .main-right-text{
+        top: 70%;
+        right: -60px;
+    }
+    .main-text p:last-child{
+        margin-left: 3rem;
+        font-size: 1rem;
+
+    }
+    .section-2 h3, .section-2 p{
+        font-size: 2rem;
+        margin-top: 0;
+    }
+    
+    .section-2 p{
+        margin-top: -30px;
+    }
+    .section-2 p::first-letter{
+        font-size: 3rem;
+    }
+    
+    .section-2 span{
+        font-size: 3rem;
+    }
+
+    .section-2>div{
+        width: 85%;
+    }
+
+    .sect-3-image p{
+        font-size: 1rem;
+    }
+    .section-3 p:first-child{
+        font-size: 2rem;
+    }
+    .sect-3-image{
+        height: 60vh;
+    }
+
+    .title span{
+        font-size: 2rem;
+    }
+    .title p{
+        font-size: 1.5rem;
+        margin-top: 0;
+    }
+    .sect-3-box>div{
+        width: 95%;
+        padding: 2rem 1.5rem !important;
+    }
+    .contact span{
+        font-size: 2rem;
+    }
+    .contact>div{
+        flex-direction: column !important;
+        width: 80%;
+    }
+    #submit{
+        font-size: 14px;
+    }
+    .sect-4-text{
+        font-size: 12px;
+        bottom: -10%;
+        right: 20%;
+    }
+    .sect-4-text::before{
+        height: 30px;
+
+    }
+}
