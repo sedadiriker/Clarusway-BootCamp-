@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    width: 8%;
+
+}
+.logo{
+    width: 100%;
+}
+
+.navbar .container{
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.carousel{
+    height: 100vh !important;
+}
