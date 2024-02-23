@@ -12,6 +12,7 @@ window.onload = () => {
     input.focus()
     random = Math.floor(Math.random() * 20)
     hak = 5
+    document.getElementById('bgMusic').play()
 }
 
 button.addEventListener('click', () => {
