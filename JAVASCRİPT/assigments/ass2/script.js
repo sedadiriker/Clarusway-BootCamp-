@@ -25,8 +25,9 @@ btn.addEventListener('click', () => {
     const cssGradient = "linear-gradient(to right, " + color1 + ", " + color2 + ", " + color3 + ")"
 
     document.getElementById("cssGradient").value = cssGradient
-})
 
+    
+})
 
 
 function randomGradient() {
@@ -46,3 +47,18 @@ function randomGradient() {
 setInterval(function() {
     title.style.backgroundImage = randomGradient()
 }, 1000)
+
+
+function copy() {
+    let textarea = document.getElementById("cssGradient");
+    textarea.select();
+    document.execCommand("copy");
+}
+
+cssGradient.addEventListener('click', () => {
+    copy()
+    cssGradient.value = 'Kopyalandı!'
+    cssGradient.style.textAlign = 'center'
+})
+
+
