@@ -14,6 +14,10 @@ const users = [
 // console.log(user1Name);
 
 
+// users.forEach(({id,name,email}) => {
+//   console.log(`id: ${id}, name: ${name}, email: ${email}`)
+// })
+
 //! Verileri kullanarak her kullanıcının adını, şehrini ve yaşını içeren bir dizi oluşturun
 
 const data = {
@@ -78,6 +82,21 @@ const data = {
 // console.log(info);
   
 
+//?Reduce Denemesi
+// const { results } = data;
+// const arr = results.reduce((acc, cur) => {
+//   const {
+//     name: { title, first, last },
+//     location: { city },
+//     dob: { age },
+//   } = cur;
+
+//   acc.name = first
+//   acc.city = city
+//   acc.age = age
+//   return acc;
+// }, {});
+// console.log(arr);
 
 //! Destructuring kullanarak en sık tekrar eden özelliği(rengi) bulan bir fonksiyon yazın sonuc red olmalı
 
@@ -152,9 +171,34 @@ const data = {
 // }
 // console.log(concanetArr);
 
+//?Adem Hocam..
+// const concatArr = []
+
+// for(const {values} of data) {
+//   concatArr.push(values)
+// }
+// console.log(concatArr.flat(3)) //! flat() ile nested dizileri çıkarıyoruz.
+
+//?Veysel Hocam
+// const mergedArray = [].concat(...data.map(({ values }) => values));
+// console.log(mergedArray)
+
+// const mergedArray = Object.assign([],...data.map(({ values }) => values));
+//   console.log(mergedArray)
 
 
+//?Akmaral Hocam
 
+// const obj = {
+//   arr1: [1, 2, 3],
+//   arr2: [4, 5, 6],
+//   arr3: [7, 8, 9]
+// };
+// function xArrays(obj) {
+//   return [...obj.arr1, ...obj.arr2, ...obj.arr3];
+// }
+
+// console.log(xArrays(obj))
   //! Spread operatörünü kullanarak iki nesnenin belirli özelliklerini birleştiren ve çakışan özelliklerin değerlerini toplayan bir fonksiyon yazın  {a: 10, b: 35, c: 55, d: 35} olmalı
 
 const object1 = {
@@ -210,4 +254,22 @@ const object1 = {
 
 // console.log(toplam([1, 2, 3], [4, 5, 6]));
   
-  
+
+
+//?Akmaral Hocam
+
+// function toplam(...arrays) {
+//   return arrays.flat().reduce((total, current) => total + current, 0);
+// }
+
+// console.log(toplam([1, 2, 3], [4, 5, 6], [7, 8, 9],[10,11,12]));
+
+
+
+
+//? Adem hocam
+// function myFunction(...arrays) {
+//   let sum = arrays.reduce((acc,cur) => acc += cur,0)
+//   return sum;
+// }
+// console.log(myFunction(...[1, 2, 3], ...[4,5,6], ...[7,8,9], ...[10, 11, 12]));
