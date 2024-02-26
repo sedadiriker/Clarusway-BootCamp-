@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Linear Gradient Oluşturma</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gradient Oluşturucu</h1>
+        <p>Aşağıda istediğiniz gradienti oluşturup, CSS kodunuzda kullanmak için kopyalayabilirsiniz.</p>
+        <canvas id="canvas"></canvas><br>
+        <div>
+            <label for="color1">Renk 1: </label>
+            <input type="color" id="color1">
+            <input type="text" id="hexColor1" readonly ><br>
+    
+            <label for="color2">Renk 2: </label>
+            <input type="color" id="color2">
+            <input type="text" id="hexColor2" readonly ><br>
+
+            <label for="color3">Renk 3: </label>
+            <input type="color" id="color3">
+            <input type="text" id="hexColor3" readonly ><br>
+        </div>
+
+        <button id="btn">Gradient Oluştur</button>
+        <textarea id="cssGradient" rows="3" cols="30" readonly noresize></textarea>
+
+    </div>
+
+<script src="./script.js"></script>
+</body>
+</html>
