@@ -64,4 +64,10 @@ reset.addEventListener("click", () => {
     playAudio(2)
 })
 
+function enableBtons() {
+    player1Buton.removeAttribute('disabled')
+    player2Buton.removeAttribute('disabled')
+}
 
+
+limit.addEventListener('change',enableBtons)
