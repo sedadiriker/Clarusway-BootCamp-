@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(29, 81, 97);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.sorgulama{
+    padding: 1rem;
+    width: 35vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    background-color: black;
+    overflow: hidden;
+    border-radius: 20px;
+    z-index: 1;
+}
+.sorgulama::before{
+    content: '';
+    position: absolute;
+    width: 18vw;
+    height: 140%;
+    background-color: white;
+    box-shadow: 0 0 20px rgb(8, 8, 8);
+    animation: dönence 4s linear infinite;
+    z-index: -1;
+}
+.sorgulama::after{
+    content: '';
+    position: absolute;
+    inset:6px;
+    background-color: rgb(29, 81, 97);
+    border-radius: 16px;
+    z-index: -1;
+}
+.sorgulama p{
+    color: White;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.validate{
+    display: flex;
+    gap: 10px;
+}
+.text{
+    color: rgb(117, 3, 3);
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    animation: parla 1s linear  alternate infinite;
+}
+#ssn{
+    padding: 12px;
+    outline: none;
+    font-size: 1.3rem;
+}
+
+#btn{
+    padding: 12px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+@keyframes dönence {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes parla {
+    0%{
+        color: rgb(117, 3, 3);
+    }
+    100%{
+        color: rgb(237, 197, 197);
+
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #ssn{
+        width: 14vw;
+        font-size: 1rem;
+    }
+    #btn{
+        width:8vw;
+    }
+}
+@media screen and (max-width: 500px) {
+    .sorgulama{
+        width: 80vw;
+    }
+    #ssn{
+        width: 50vw;
+        font-size: 1rem;
+    }
+    #btn{
+        width:20vw;
+        font-size: 8px;
+    }
+}
