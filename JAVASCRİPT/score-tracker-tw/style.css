@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anta", sans-serif;
+
+}
+
+.container{
+    background-image: url(./images/icegif-684.gif);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo{
+    width: 15vw;
+    position: relative;
+}
+
+.logo .img-1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(23, 22, 22);
+    border-radius: 10%;
+    box-shadow: 2px 1px 10px rgb(65, 7, 7);
+}
+
+.gif{
+    width: 35vw;
+    height: 40vh;
+}
+
+.gif img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 1px 40px black;
+}
+
+.scores-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.scores{
+    font-size: 2rem;
+}
+
+.limit label{
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
+#numbers{
+    width: 100px;
+    font-size: 1.3rem;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+}
+
+.ply-btn{
+    width: 50vw;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.ply1_btn, .ply2_btn,.reset{
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 35%, rgba(255,0,0,1) 100%);
+    border-radius: 20px;
+    box-shadow: 2px -1px 10px blue;
+}
+
+.ply-btn-lose{
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(173, 6, 6);
+    border-radius: 20px;
+}
+.ply-btn-win{
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    background-color: green;
+    border-radius: 20px;
+}
+
+.ply1_btn::before, .ply2_btn::before, .reset::before{
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    left: 0px;
+    background-color: rgb(85, 5, 5);
+    width: 0%;
+    height: 100%;
+    transition: all 1s;
+    border-radius: 20px;
+    z-index: -1;
+}
+.ply1_btn::after, .ply2_btn::after, .reset::after{
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    right: 0px;
+    background-color: rgb(5, 9, 111);
+    width: 0%;
+    height: 100%;
+    transition: all 1s;
+    border-radius: 20px;
+    z-index: -1;
+
+}
+.ply1_btn:hover::after, .ply1_btn:hover::before,
+.ply2_btn:hover::after, .ply2_btn:hover::before,
+.reset:hover::after, .reset:hover::before{
+    width: 50%;
+}
+.button-container {
+    text-align: center;
+}
+
+
+
+
