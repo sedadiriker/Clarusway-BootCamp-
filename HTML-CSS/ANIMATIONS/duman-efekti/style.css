@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./daisy-5237787_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(10px)
+}
+.container{
+    padding: 5rem;
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.image{
+    width: 100%;
+    position: relative;
+}
+
+.image img{
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    width: 100%;
+}
+.text{
+    color: white;
+    margin-top: 1rem;
+    text-align: justify;
+    width: 100%;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+.vapour{
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 40%;
+    left: 45%;
+
+    display: flex;
+    /* bottom: 10rem;
+    right: 14rem; */
+    padding: 0 20px;
+}
+
+.vapour span{
+    background-color: white;
+    min-width: 1vw;
+    height: 20vh;
+    border-radius: 50%;
+    margin: 0 2px 50px;
+    animation-name: vapour;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    filter: blur(8px);
+    animation-delay: calc(var(--i) * 0.5s);
+}
+
+
+@keyframes vapour {
+    0%{
+        transform: translateY(0) scaleX(1);
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    50%{
+        transform: translateY(-150px) scaleX(5);
+    }
+    95%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(-300px) scaleX(10);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 1rem;
+    }
+}
