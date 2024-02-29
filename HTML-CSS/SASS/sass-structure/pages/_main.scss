@@ -1,0 +1,45 @@
+main{
+    .banner{
+        line-height: 1.8rem;
+        .banner-text{
+            width: 60%; 
+            .btn{
+                background-color: #E51959;
+                transition: all 1s;
+
+                &:hover{
+                    @extend .transform
+                }
+            }
+                
+        }
+        .banner-image{
+            width: 40%;
+        }
+        .content{
+            color: rgba(0, 0, 0, 0.551);
+        }
+
+        .row{
+            white-space: nowrap;
+            .col-1{
+                cursor: pointer;
+                padding: 12px 3rem;
+                font-size: 12px;
+                border: 1px solid black;
+                border-radius: 5px;
+                white-space: normal;
+                line-height: 15px;
+                font-weight: 600;
+                text-align: center;
+                @extend .flex;
+                transition: all 1s;
+
+                &:hover{
+                    @extend .transform;
+                    border-color: $butonColor;
+                }
+            }
+        }
+    }
+}

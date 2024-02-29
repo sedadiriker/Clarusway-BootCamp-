@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+.reset, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.flex, main .banner .row .col-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transform, main .banner .row .col-1:hover, main .banner .banner-text .btn:hover, header .btn:hover {
+  transform: scale(0.8);
+}
+
+header .navbar-brand {
+  width: 15%;
+}
+header .btn {
+  padding: 10px 1.5rem;
+  transition: all 1s;
+}
+main .banner {
+  line-height: 1.8rem;
+}
+main .banner .banner-text {
+  width: 60%;
+}
+main .banner .banner-text .btn {
+  background-color: #E51959;
+  transition: all 1s;
+}
+main .banner .banner-image {
+  width: 40%;
+}
+main .banner .content {
+  color: rgba(0, 0, 0, 0.551);
+}
+main .banner .row {
+  white-space: nowrap;
+}
+main .banner .row .col-1 {
+  cursor: pointer;
+  padding: 12px 3rem;
+  font-size: 12px;
+  border: 1px solid black;
+  border-radius: 5px;
+  white-space: normal;
+  line-height: 15px;
+  font-weight: 600;
+  text-align: center;
+  transition: all 1s;
+}
+main .banner .row .col-1:hover {
+  border-color: #E51959;
+}
+
+footer .numbers div:nth-child(1) {
+  border-right: 1px solid black;
+}
+footer .numbers div:nth-child(2) {
+  border-right: 1px solid black;
+}
+footer div:nth-child(1) {
+  padding: 0 5rem;
+  line-height: 1rem;
+  text-align: center;
+}
+footer div:nth-child(1) p:nth-child(1) {
+  color: #A62440;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+footer div:nth-child(2) {
+  padding: 0 5rem;
+  line-height: 1rem;
+  text-align: center;
+}
+footer div:nth-child(2) p:nth-child(1) {
+  color: #A62440;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+footer div:nth-child(3) {
+  padding: 0 5rem;
+  line-height: 1rem;
+  text-align: center;
+}
+footer div:nth-child(3) p:nth-child(1) {
+  color: #A62440;
+  font-size: 2.5rem;
+  font-weight: bold;
+}/*# sourceMappingURL=main.css.map */

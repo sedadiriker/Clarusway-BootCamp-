@@ -1,0 +1,12 @@
+header{
+    .navbar-brand{
+        width: 15% ;
+    }
+    .btn{
+        padding: 10px 1.5rem;
+        transition: all 1s;
+        &:hover{
+            @extend .transform
+        }
+    }
+}
