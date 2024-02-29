@@ -1,0 +1,162 @@
+.flex, footer .social-icons, main .articles .article1, main .articles .article2, main .articles, main .cards, header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: pink;
+}
+
+header {
+  justify-content: space-between;
+  padding: 5px 12px;
+  background-color: #2FA7C3;
+}
+header img {
+  padding: 10px;
+  width: 80px;
+  border: 2px dotted brown;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+header ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+header ul li:hover {
+  text-decoration: underline;
+}
+
+main .banner {
+  background-color: #FF68B4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+main .banner img {
+  max-width: 300px;
+  min-width: 100px;
+}
+main .banner button {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: #902B2B;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+main .cards {
+  gap: 1rem;
+  padding: 1rem;
+}
+main .cards .card1 {
+  background-color: blue;
+  width: 25%;
+  height: 15rem;
+  border-radius: 1rem;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .cards .card2 {
+  background-color: green;
+  width: 25%;
+  height: 15rem;
+  border-radius: 1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .cards .card3 {
+  background-color: red;
+  width: 25%;
+  height: 15rem;
+  border-radius: 1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .cards .card4 {
+  background-color: #FF00FF;
+  width: 25%;
+  height: 15rem;
+  border-radius: 1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .articles {
+  gap: 1rem;
+  padding: 1rem;
+}
+main .articles .article1, main .articles .article2 {
+  background-color: gray;
+  width: 50%;
+  height: 10rem;
+  border-radius: 10px;
+}
+main .articles .article2 {
+  background-color: rgb(93, 82, 62);
+}
+
+footer p {
+  background-color: red;
+  font-size: 1.3rem;
+}
+footer .social-icons {
+  height: 10rem;
+}
+footer .social-icons .social1 {
+  width: 20%;
+  background-color: #1a1aff;
+  font-size: 1rem;
+  height: 100%;
+  color: #990000;
+}
+footer .social-icons .social2 {
+  width: 20%;
+  background-color: #3333ff;
+  font-size: 2rem;
+  height: 100%;
+  color: #55004e;
+}
+footer .social-icons .social3 {
+  width: 20%;
+  background-color: #4d4dff;
+  font-size: 3rem;
+  height: 100%;
+  color: #0fa8a1;
+}
+footer .social-icons .social4 {
+  width: 20%;
+  background-color: #6666ff;
+  font-size: 4rem;
+  height: 100%;
+  color: #dcacf1;
+}
+footer .social-icons .social5 {
+  width: 20%;
+  background-color: #8080ff;
+  font-size: 5rem;
+  height: 100%;
+  color: #64c217;
+}/*# sourceMappingURL=style.css.map */
