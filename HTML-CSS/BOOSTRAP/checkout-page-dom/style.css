@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.navbar{
+    /* border: 1px solid blue; */
+    display: flex;
+}
+.header-img img{
+    width: 100%;
+}
+.logo{
+    width: 30%;
+}
+
+.nav{
+    white-space: nowrap;
+}
+.nav-item a{
+    font-size: 13px;
+    color: rgb(98, 92, 92);
+}
+.form-control{
+    background-color: #F7F7F7;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 60%;
+}
+.form-control::placeholder{
+    color: rgba(0, 0, 0, 0.219);
+}
+
+.butons{
+    width: 35%;
+    white-space: nowrap;
+}
+.collapse{
+    /* border: 1px solid red; */
+    width: 90%;
+
+}
+.btn-lg{
+    font-size: 14px;
+    background-color: #F5F5F5;
+    letter-spacing: 1px;
+}
+form .fa-magnifying-glass {
+    top: 30%;
+    right: 45%;
+    font-size: 14px;
+    color: rgb(52, 50, 50);
+}
+.card-title{
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: #013177;
+}
+
+.card-title span{
+    font-size: 1rem;
+}
+.card-text{
+    font-size: 12px;
+    border: 1px solid #B2C1D6;
+    border-radius: 5px;
+    text-align: center;
+    color: #013177;
+}
+
+.card .btn{
+    width: 100%;
+}
+.card .btn:hover{
+    background-color: #013177;
+    color: white;
+}
+.sepet-2{
+    display: none;
+}
+.card img{
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width:1200px) {
+    .nav-item a{
+        font-size: 9px;
+    }
+   
+}
+@media screen and (max-width:1000px) {
+    .nav-item a{
+        display: none;
+    }
+   .butons button:nth-child(1){
+    display: none;
+   }
+   .butons button:nth-child(2){
+   margin-left: 5rem;
+   }
+}
+@media screen and (max-width:990px) {
+    .navbar-brand{
+        width: 70%;
+        height: 80px;
+        text-align: end;
+    }
+
+    .image{
+        height: 100%;
+    }
+    .form-control, .form .fa-magnifying-glass {
+        display: none;
+    }
+
+}
+@media screen and (max-width:650px) {
+.butons button:nth-child(2) {
+    display: none;
+}
+.sepet-2{
+    background-color: #003277;
+    display: block;
+    margin-left: 7rem;
+    color: white;
+    border-radius: 50px;
+}
+}
+@media screen and (max-width:480px) {
+.sepet-2{
+    width: 10%;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6rem;
+}
+}
+
