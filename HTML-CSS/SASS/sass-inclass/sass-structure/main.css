@@ -5,18 +5,18 @@
   box-sizing: border-box;
 }
 
+* {
+  font-family: "Inter", sans-serif;
+}
+
 .flex, main .banner .row .col-1 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.transform, main .banner .row .col-1:hover, main .banner .banner-text .btn:hover {
+.transform, main .banner .row .col-1:hover, main .banner .banner-text .btn:hover, header .btn:hover {
   transform: scale(0.8);
-}
-
-* {
-  font-family: "Inter", sans-serif;
 }
 
 header .navbar-brand {
@@ -24,8 +24,8 @@ header .navbar-brand {
 }
 header .btn {
   padding: 10px 1.5rem;
+  transition: all 1s;
 }
-
 main .banner {
   line-height: 1.8rem;
 }
@@ -96,4 +96,4 @@ footer div:nth-child(3) p:nth-child(1) {
   color: #A62440;
   font-size: 2.5rem;
   font-weight: bold;
-}/*# sourceMappingURL=sass.css.map */
+}/*# sourceMappingURL=main.css.map */
