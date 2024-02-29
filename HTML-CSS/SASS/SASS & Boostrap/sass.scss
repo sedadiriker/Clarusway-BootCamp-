@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.reset {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.transform{
+    transform: scale(0.8);
+}
+
+$myFont : "Inter", sans-serif;
+$butonColor : #E51959;
+
+
+
+
+*{
+    @extend .reset;
+    font-family: $myFont;
+}
+
+header{
+    .navbar-brand{
+        width: 15% ;
+    }
+    .btn{
+        padding: 10px 1.5rem;
+    }
+}
+
+main{
+    .banner{
+        line-height: 1.8rem;
+        .banner-text{
+            width: 60%; 
+            .btn{
+                background-color: #E51959;
+                transition: all 1s;
+
+                &:hover{
+                    @extend .transform
+                }
+            }
+                
+        }
+        .banner-image{
+            width: 40%;
+        }
+        .content{
+            color: rgba(0, 0, 0, 0.551);
+        }
+
+        .row{
+            white-space: nowrap;
+            .col-1{
+                cursor: pointer;
+                padding: 12px 3rem;
+                font-size: 12px;
+                border: 1px solid black;
+                border-radius: 5px;
+                white-space: normal;
+                line-height: 15px;
+                font-weight: 600;
+                text-align: center;
+                @extend .flex;
+                transition: all 1s;
+
+                &:hover{
+                    @extend .transform;
+                    border-color: $butonColor;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    .numbers{
+        $totalDivs: 2;
+
+    @for $i from 1 through $totalDivs {
+        div:nth-child(#{$i}) {
+        border-right: 1px solid black;
+    }
+    }
+    }
+
+    $allDivs : 3;
+
+    @for $i from 1 through $allDivs {
+        div:nth-child(#{$i}) {
+        padding: 0 5rem;
+        line-height: 1rem;
+        text-align: center;
+        & p:nth-child(1) {
+            color: #A62440;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+    }
+    }
+}
