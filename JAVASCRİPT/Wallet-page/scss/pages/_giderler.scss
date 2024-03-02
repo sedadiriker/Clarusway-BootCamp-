@@ -1,0 +1,19 @@
+.ekle-btn-gdr{
+    color: black;
+    border: 1px solid black;
+    @include myTransition(1s);
+
+    &:hover{
+        @include scale(1.02);
+        background: rgb(137,16,120);
+        background: linear-gradient(90deg, #d0750c 28%, #DF84A1 100%);
+        color: white;
+    }
+}
+
+#gider-tutar, #gider_adı{
+    border: 1px solid rgba(0, 0, 0, 0.436);
+    // border-radius: 10px;
+    outline: none;
+    padding: 0 12px;
+}

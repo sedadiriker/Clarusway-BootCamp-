@@ -1,0 +1,118 @@
+main{
+    display: flex;
+    height: 80vh;
+    margin-top: 1rem;
+
+    .main__nav{
+        width: 20%;
+        border-color: rgba(0, 0, 0, 0.484);
+        border-top-right-radius: 10%;
+        border-bottom-right-radius: 10%;
+
+        .open{
+            display: none;
+            a{
+                color: #60095e;
+                font-size: 1.2rem;
+            }
+        }
+        .hamburger-menu{
+            display: inline-block;
+            padding: 1rem;
+            i{
+                border: 4px double black;
+                border-radius: 10px;
+                padding: 10px;
+                cursor: pointer;
+                background-color: #FFCC70;
+                @include myTransition(2s);
+            }
+        }
+    
+        p{
+            margin-bottom: 10rem;
+            padding: 0 2.5rem;
+            font-family: $secondary-font ;
+            font-size: 1.1rem;
+        }
+    }
+
+    .content{
+        width: 80%;
+
+        .gelirler{
+            width: 30%;
+            height: 200px;
+            border:  1px solid rgba(0, 0, 0, 0.277);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 1rem;
+            .span{
+                font-size: 10px;
+            }
+
+            .hesaplanan_gelir{
+                font-size: 2rem;
+            }
+            .gelir_icon{
+                background: rgb(105,204,61);
+                background: linear-gradient(90deg, rgb(71, 141, 41) 35%, rgb(160, 206, 140) 100%);                
+                width: 50px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                i{
+                    font-size: 1.5rem;
+                    color: white
+                }
+            }
+            
+        }
+
+        .giderler{
+            @extend .gelirler;
+
+            .hesaplanan_gider{
+                font-size: 2rem;
+            }
+
+            .gider_icon{
+                @extend .gelir_icon;
+                background: rgb(105,204,61);
+                background: linear-gradient(90deg, rgb(241, 7, 7) 35%, rgb(236, 134, 134) 100%);  
+            }
+        }
+
+        .toplam{
+            @extend .gelirler;
+
+            .hesaplanan_toplam{
+                font-size: 2rem;
+            }
+            .toplam_icon{
+                @extend .gelir_icon;
+                background: rgb(105,204,61);
+                background: linear-gradient(90deg, rgb(229, 182, 39) 35%, rgb(236, 134, 134) 100%);  
+            }
+            
+        }
+
+        .chart-container {
+            width: 800px;
+            height: 400px;
+            margin: 50px auto;
+        }
+    }
+
+    
+
+
+    
+
+    
+
+    
+}

@@ -1,0 +1,40 @@
+.navbar{
+    
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+    .user{
+        padding: 0 5rem;
+        width: 50%;
+
+        .user__image{
+            width: 20%;
+            
+    
+            p{
+                white-space: nowrap;
+                cursor: pointer;
+            }
+        }
+    }
+    
+    form{
+        input{
+            background-color: $secondary-color;
+            
+        }
+        input::placeholder{
+            opacity: 0.5;
+        }
+
+        button{
+            @include myTransition(1s);
+            background-color: $secondary-color;
+            &:hover{
+                color:white;
+                @include scale(0.8)
+            }
+        }
+        
+    }
+}

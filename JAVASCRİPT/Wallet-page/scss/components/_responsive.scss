@@ -1,0 +1,212 @@
+@include media-xsm {
+    main{
+    }
+    .main__nav{
+        height: 75vh !important;
+        p{
+            margin-bottom: 2rem !important;
+        }
+    }
+    .content {
+        width: 100%;
+        .gelirler{
+            .hesaplanan_gelir{
+                font-size: 14px !important;
+            }
+            .gelir_icon{
+                width: 30px !important;
+                height: 30px !important;
+                i{
+                    font-size: 12px !important;
+                }
+            }
+        }
+        .giderler{
+            .hesaplanan_gider{
+                font-size: 14px !important;
+            }
+        }
+        .toplam{
+            .hesaplanan_toplam{
+                font-size: 14px !important;
+            }
+        }
+    }
+
+
+}
+
+@include media-sm {
+    header {
+        .search{
+            display: none !important;
+        }
+
+        .user{
+            width: 100%;
+            margin-right: 2rem;
+
+            .user__image{
+                width: 100% !important;
+            }
+        }
+        
+    }
+
+    main {
+        .main__nav{
+            height: 40vh !important;
+            .hamburger-menu{
+                padding: 10px !important;
+                i{
+                    padding: 5px !important;
+                }
+            }  
+            p{
+                font-size: 14px !important;
+                margin-bottom: 5rem;
+            }
+        }
+        .tablo{
+            flex-direction: column !important;
+            align-items: center;
+            .gelirler{
+                width: 75%;
+            }
+        }
+        .content{
+            .gelirler{
+                height: 100px !important;
+                .hesaplanan_gelir{
+                    font-size: 14px !important;
+                }
+                .gelir_icon{
+                    width: 30px !important;
+                    height: 30px !important;
+                    i{
+                        font-size: 12px !important;
+                    }
+                }
+            }
+            .giderler{
+                .hesaplanan_gider{
+                    font-size: 14px !important;
+                }
+            }
+            .toplam{
+                .hesaplanan_toplam{
+                    font-size: 14px !important;
+                }
+            }
+    }
+    }
+
+}
+
+@include media-md {
+    main {
+        .main__nav{
+            height: 28vh !important;
+            .hamburger-menu{
+                padding: 10px !important;
+                i{
+                    padding: 5px !important;
+                }
+            }  
+            p{
+                font-size: 1.2rem;
+                margin-bottom: 2rem;
+            }
+        }
+        .tablo{
+            flex-direction: column !important;
+            align-items: center;
+            .gelirler{
+                width: 75%;
+            }
+        }
+        .content{
+            .gelirler{
+                height: 150px;
+                .hesaplanan_gelir{
+                    font-size: 1.5rem ;
+                }
+                .gelir_icon{
+                    width: 50px ;
+                    height: 50px ;
+                    i{
+                        font-size: 1.5rem ;
+                    }
+                }
+            }
+            .giderler{
+                .hesaplanan_gider{
+                    font-size: 1.5rem ;
+                }
+            }
+            .toplam{
+                .hesaplanan_toplam{
+                    font-size: 1.5rem ;
+                }
+            }
+    }
+    }
+
+}
+
+@include media-lg {
+    main {
+        flex-direction: column;
+        gap: 1rem;
+        .main__nav{
+            border-radius: 10px !important;
+            display: flex !important;
+            width: 80% !important;
+            margin: auto;
+            gap: 1rem;
+            height: 24vh !important;
+            .hamburger-menu{
+                padding: 10px !important;
+                i{
+                    padding: 5px !important;
+                }
+            }  
+            p{
+                font-size: 1.2rem;
+                margin-bottom: 2rem;
+            }
+        }
+        .tablo{
+            flex-direction: column !important;
+            align-items: center;
+            .gelirler{
+                width: 75%;
+            }
+        }
+        .content{
+            .gelirler{
+                height: 150px;
+                .hesaplanan_gelir{
+                    font-size: 1.5rem ;
+                }
+                .gelir_icon{
+                    width: 50px ;
+                    height: 50px ;
+                    i{
+                        font-size: 1.5rem ;
+                    }
+                }
+            }
+            .giderler{
+                .hesaplanan_gider{
+                    font-size: 1.5rem ;
+                }
+            }
+            .toplam{
+                .hesaplanan_toplam{
+                    font-size: 1.5rem ;
+                }
+            }
+    }
+    }
+}

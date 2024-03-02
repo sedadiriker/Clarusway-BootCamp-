@@ -1,0 +1,36 @@
+@mixin myTransition($sec) {
+    transition: all $sec;
+}
+
+@mixin scale($deger) {
+    transform: scale($deger);
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                 responsive                                 */
+/* -------------------------------------------------------------------------- */
+
+@mixin media-xsm {
+    @media screen and (max-width: 400px) {
+      @content;
+    }
+  }
+  
+  @mixin media-sm {
+    @media screen and (max-width: 576px) {
+      @content;
+    }
+  }
+  
+  @mixin media-md {
+    @media screen and (max-width: 768px) {
+      @content;
+    }
+  }
+  
+  @mixin media-lg {
+    @media screen and (max-width: 1024px) {
+      @content;
+    }
+  }

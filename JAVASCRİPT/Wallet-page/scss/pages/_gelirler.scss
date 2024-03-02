@@ -1,0 +1,64 @@
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+    th, td {
+        border: 1px solid #e9b219;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #BE50C0;
+    }
+}
+
+.ekle-btn{
+    color: black;
+    border: 1px solid black;
+    @include myTransition(1s);
+
+    &:hover{
+        @include scale(1.02);
+        background: rgb(137,16,120);
+        background: linear-gradient(90deg, #d0750c 28%, #DF84A1 100%);
+        color: white;
+    }
+}
+
+#gelir-tutar, #gelir_adı{
+    border: 1px solid rgba(0, 0, 0, 0.436);
+    // border-radius: 10px;
+    outline: none;
+    padding: 0 12px;
+}
+
+
+// Sonradan class ekleme
+.iconTd{
+    text-align: center;
+    color: #d49d05;
+}
+
+.icon{
+    cursor: pointer;
+    @include myTransition(1s);
+
+    &:hover{
+        @include scale(1.3)
+    }
+}
+
+.gelirler_btn-none{
+    display: none !important;
+}
+.gelirler_btn-block{
+    display: block !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
