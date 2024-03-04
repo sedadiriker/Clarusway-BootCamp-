@@ -64,10 +64,7 @@ button:hover{
     cursor: pointer;
     background-color: rgb(87, 59, 59);
 }
-.check{
-    font-size: 14px;
-    color: brown;
-}
+
 
 @media screen and (max-width:1024px) {
     .blur{
@@ -87,9 +84,6 @@ button:hover{
         font-size: 1rem;
     }
     button{
-        font-size: 12px;
-    }
-    .check{
         font-size: 12px;
     }
 }

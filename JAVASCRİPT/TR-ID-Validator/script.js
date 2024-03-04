@@ -17,6 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const pElement = document.createElement('p')
             pElement.textContent = 'Lütfen 11 haneli bir TC kimlik No giriniz'
             check.appendChild(pElement)
+            pElement.style.fontSize = '14px'
+            pElement.style.color = 'brown'
             input.value = ''
             input.focus()
             
@@ -47,6 +49,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 const pElement = document.createElement('p')
                 pElement.textContent = 'Geçersiz TC Kimlik No'
                 check.appendChild(pElement)
+                pElement.style.fontSize = '14px'
+                pElement.style.color = 'brown'
                 input.value = ''
                 input.focus()
     
@@ -54,6 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 const pElement = document.createElement('p')
                 pElement.textContent = 'Geçerli TC Kimlik No'
                 check.appendChild(pElement)
+                pElement.style.fontSize = '14px'
+                pElement.style.color = 'rgb(8, 71, 13)'
                 input.value = ''
                 input.focus()
             }
