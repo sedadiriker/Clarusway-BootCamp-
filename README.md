@@ -30,9 +30,5 @@ This repository contains projects, assignments, and personal projects related to
 
 - [Assıgnments](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/ASSIGNMENTS)  --> This repository contains assignments.
 - [Boostrap](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/BOOSTRAP)  --> This repository contains Boostrap projects.
-- [Boostrap](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/BOOSTRAP)  --> This repository contains Boostrap projects.
+- [SASS](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/SASS)  --> This repository contains SASS projects.
         
-
-- [Assıgnments](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/ASSIGNMENTS)  --> This repository contains assignments.
-- [Boostrap](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/BOOSTRAP)  --> This repository contains Boostrap projects.
-- [Boostrap](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/BOOSTRAP)  --> This repository contains Boostrap projects.
