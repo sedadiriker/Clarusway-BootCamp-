@@ -1,3 +1,3 @@
 
 
-https://sedadiriker.github.io/Clarusway-BootCamp-/HTML-CSS/Animations/hareketli-bloklar/
+https://sedadiriker.github.io/Clarusway-BootCamp-/HTML-CSS/ANIMATIONS/hareketli-bloklar/
