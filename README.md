@@ -17,7 +17,8 @@ This repository contains projects, assignments, and personal projects related to
 - [Animations](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/ANIMATIONS)  --> This repo contains animation applications.
     EXAMPLES:
     - [duman-animation](https://sedadiriker.github.io/Clarusway-BootCamp-/HTML-CSS/Animations/duman-efekti/)
-    - [tubelıght-animation](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/ANIMATIONS/tubel%C4%B1ght)(https://sedadiriker.github.io/Clarusway-BootCamp-/HTML-CSS/ANIMATIONS/tubel%C4%B1ght/)
+    - [tubelıght-animation](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/ANIMATIONS/tubel%C4%B1ght)     <img src="./HTML-CSS/ANIMATIONS/tubelıght/tubelıght.gif" width="300px" alt="">
+
         
 
 - [Assıgnments](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/ASSIGNMENTS)  --> This repository contains assignments.
