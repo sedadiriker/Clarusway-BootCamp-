@@ -1,3 +1,5 @@
+## Screenshots
+![Project snapshot]() 
 
+[Tubelıght Live Page](https://sedadiriker.github.io/Clarusway-BootCamp-/HTML-CSS/ANIMATIONS/cloud-sun/)
 
-https://sedadiriker.github.io/Clarusway-BootCamp-/HTML-CSS/Animations/cloud-sun/
