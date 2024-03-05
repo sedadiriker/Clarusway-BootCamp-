@@ -11,6 +11,19 @@ This repo includes visuals and class studies we carried out at Clarusway Bootcam
 
 
 ## HTML-CSS
+
+    This repository contains projects, assignments, and personal projects related to HTML-CSS that were completed within the class.
+
 - [Animations](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/ANIMATIONS)  --> This repo contains animation applications.
+    - [duman-animations](https://sedadiriker.github.io/Clarusway-BootCamp-/HTML-CSS/Animations/duman-efekti/)
+  
+        
+
 - [Assıgnments](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/ASSIGNMENTS)  --> This repository contains assignments.
-- [Boostrap](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/BOOSTRAP)
+- [Boostrap](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/BOOSTRAP)  --> This repository contains Boostrap projects.
+- [Boostrap](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/BOOSTRAP)  --> This repository contains Boostrap projects.
+        
+
+- [Assıgnments](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/ASSIGNMENTS)  --> This repository contains assignments.
+- [Boostrap](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/BOOSTRAP)  --> This repository contains Boostrap projects.
+- [Boostrap](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/BOOSTRAP)  --> This repository contains Boostrap projects.
