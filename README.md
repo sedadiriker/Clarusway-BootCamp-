@@ -11,6 +11,6 @@ This repo includes visuals and class studies we carried out at Clarusway Bootcam
 
 
 ## HTML-CSS
-- [Animations](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/ANIMATIONS)-- Bu klasör içinde animasyon uygulamaları yer almaktadır
-- [Assıgnments](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/ASSIGNMENTS)
+- [Animations](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/ANIMATIONS)  --> This repo contains animation applications.
+- [Assıgnments](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/ASSIGNMENTS)  --> This repository contains assignments.
 - [Boostrap](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/BOOSTRAP)
