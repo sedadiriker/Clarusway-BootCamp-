@@ -15,6 +15,7 @@ This repo includes visuals and class studies we carried out at Clarusway Bootcam
     This repository contains projects, assignments, and personal projects related to HTML-CSS that were completed within the class.
 
 - [Animations](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/ANIMATIONS)  --> This repo contains animation applications.
+    Examples:
     - [duman-animations](https://sedadiriker.github.io/Clarusway-BootCamp-/HTML-CSS/Animations/duman-efekti/)
   
         
