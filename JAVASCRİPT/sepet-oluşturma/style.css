@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    width: 20%;
+}
+
+.table{
+    position: absolute;
+    /* border: 1px solid red; */
+    right: -0.75rem;
+    width: 25rem;
+    top: 4.7rem;
+    z-index: 1;
+    padding: 1rem;
+}
+
+.table td{
+    vertical-align: middle;
+}
+
+
+.hidden{
+    display: none !important;
+}
+.fas{
+    transition: 1s;
+    cursor: pointer;
+}
+.fas:hover{
+    color: rgb(255, 77, 0);
+    transform: scale(1.4);
+}
+.image{
+    overflow: hidden;
+
+}
+.image img{
+    transition: all 1s;
+
+}
+.card img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.card:hover{
+    box-shadow: 2px -1px 15px #0C6DFD;
+}

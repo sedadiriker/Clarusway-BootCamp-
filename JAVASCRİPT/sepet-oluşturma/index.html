@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fenerium Alışveriş Sepeti</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-primary">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-warning fw-bold" href="#">
+                    <img src="./images/indir (11).png" class="w-25 rounded-5" alt=""> SHOP<span class="text-white" >PİNG</span> </a>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active text-warning" aria-current="page" href="#">Home</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="cart position-relative">
+                    <button class="btn position-relative">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor" class="bi bi-cart text-warning" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                          </svg>
+                          <span id="count" class="position-absolute text-black fw-bold bg-warning rounded-pill badge">0</span>
+                    </button>
+
+                    <table class="table hidden">
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Ürün </th>
+                                <th scope="col" class="adet">Adet </th>
+                                <th scope="col">Fiyat</th>
+                                <th scope="col"> </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                
+                            <tr class="son-satır">
+                                <td><button class="btn bg-warning">Sepeti Onayla</button></td>
+                                <td class="toplam-yazısı w-100">Sepetiniz Boş</td>
+                                <td class="adet-toplamı"></td>
+                                <td class="sepet-toplamı"></td>
+                                <td><i class="fas fa-trash-can toplam-delete"></i></td>
+                            </tr>    
+                        </tbody>
+                    </table>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container row m-auto justify-content-center my-5 row-gap-5">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <div class="image">
+                    <img src="./images/AT013EDS014SR.jpg" class="card-img-top" alt="...">
+                  </div>
+                    
+                    <div class="card-body">
+                      <h5 class="card-title">Çubuklu Forma</h5>
+                        <p class="card-price text-primary fw-bold">₺1.799,00</p>
+                        <div class=" d-flex justify-content-evenly">
+                            <select id="adet" class="w-25">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                              </select>
+                              
+                            <a href="#" class="btn btn-warning text-primary">Sepete Ekle</a>
+                        </div>
+                        
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                    <div class="image">
+                      <img src="./images/AT013CDS08500.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Sarı Baby Set</h5>
+                      <p class="card-price text-primary fw-bold">₺1.599,00 </p>
+                      <div class=" d-flex justify-content-evenly">
+                        <select id="adet" class="w-25">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                          
+                        <a href="#" class="btn btn-warning text-primary">Sepete Ekle</a>
+                    </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card" >
+                    <div class="image">
+                      <img src="./images/TA019UCS02407.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Logo Şapka</h5>
+                      <p class="card-price text-primary fw-bold">₺599,00</p>
+                      <div class=" d-flex justify-content-evenly">
+                        <select id="adet" class="w-25">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                          
+                        <a href="#" class="btn btn-warning text-primary">Sepete Ekle</a>
+                    </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                    <div class="image">
+                      <img src="./images/HA036UCS02000.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Kol saati</h5>
+                      <p class="card-price text-primary fw-bold">₺6.555,90</p>
+                      <div class=" d-flex justify-content-evenly">
+                        <select id="adet" class="w-25">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                          
+                        <a href="#" class="btn btn-warning text-primary">Sepete Ekle</a>
+                    </div>
+                    </div>
+                  </div>
+            </div>           
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
