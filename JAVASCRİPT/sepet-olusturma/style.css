@@ -10,7 +10,7 @@
 
 .table{
     position: absolute;
-    /* border: 1px solid red; */
+    border: 1px solid rgb(19, 3, 91);
     right: -0.75rem;
     width: 25rem;
     top: 4.7rem;
@@ -48,5 +48,5 @@
 }
 
 .card:hover{
-    box-shadow: 2px -1px 15px #0C6DFD;
+    box-shadow: 2px -1px 15px #020f24;
 }
