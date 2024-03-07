@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: burlywood;
+}
+.container{
+    width: 100vw;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
+.loading{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.images img{
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px black;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.images img:hover{
+    transform: scale(1.05);
+}
+.loading span{
+    font-size: 1.5rem;
+}
+.paragraphs{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 10px;
+}
+
+.paragraphs p{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.main-container{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.images{
+    width: 80%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn button{
+    padding: 8px 2rem;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: brown;
+    border: none;
+    transition: all 1s;
+}
+.btn button:hover{
+    background-color: rgb(42, 8, 8);
+    color: white;
+    transform: scale(1.04);
+}
+
