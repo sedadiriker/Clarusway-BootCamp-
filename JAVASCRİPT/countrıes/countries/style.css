@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 1px solid rgba(0, 0, 0, 0.217);
+    width: 80%;
+    height: 100vh;
+    margin: 1rem auto;
+    height: 100vh;
+}
+
+.head-country{
+    height: 20%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+    width: 100%;
+    display: flex;
+}
+
+.flag{
+    width: 25%;
+    height: 100%;
+}
+
+.country-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    width: 75%;
+}
+.body-country{
+    margin-top: 1rem;
+    height: 80%;
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+.dark{
+    width: 35%;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.217);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 1rem;
+    text-align: center;
+}
+.lıght{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    width: 60%;
+    border: 1px solid rgba(0, 0, 0, 0.217);
+}
+
+@media screen and (max-width:1024px) {
+    .dark, .lıght {
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:850px) {
+    .dark, .lıght {
+        font-size: 1rem;
+    }
+    .country-name{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .dark, .lıght {
+        font-size: 14px;
+    }
+    .country-name{
+        font-size: 2rem;
+    }
+    .container{
+        width: 90% !important;
+    }
+}
+@media screen and (max-width:600px) {
+    .dark, .lıght {
+        font-size: 12px;
+    }
+
+    .dark{
+        width: 30%;
+    }
+    .lıght{
+        width: 70%;
+    }
+    .country-name{
+        font-size: 1.5rem;
+    }
+    .container{
+        width: 95% !important;
+    }
+}
+@media screen and (max-width:480px) {
+ 
+    .head-country{
+        height: 10%;
+    }
+    .body-country{
+        height: 100%;
+    }
+    .dark{
+        padding: 1.2rem 10px;
+        font-size: 14px;
+        width: 35%;
+    }
+    .lıght{
+        font-size: 12px;
+        width: 65%;
+        padding: 1rem 10px;
+    }
+    .country-name{
+        font-size: 1.5rem;
+    }
+    .container{
+        width: 95% !important;
+    }
+}
