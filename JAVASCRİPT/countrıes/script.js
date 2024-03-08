@@ -28,7 +28,7 @@ const displayCountries = (data) => {
 
         countriesContainer.innerHTML += `
         <div class= 'col-6 col-md-3 col-lg-2  border py-1 country'>
-            <a href="../countries/index.html"class='d-flex flex-column align-items-center gap-4 text-decoration-none text-black h-100 w-100'>
+            <a href="../ınfo/index.html"class='d-flex flex-column align-items-center gap-4 text-decoration-none text-black h-100 w-100'>
             <div class="border border-3 border-black w-75 h-50 my-5 image-cont">
             <img src="${flags[1]}" class="w-100 h-100" alt="flag" /> 
             </div>
