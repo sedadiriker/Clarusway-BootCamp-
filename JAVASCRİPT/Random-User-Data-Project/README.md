@@ -1,7 +1,7 @@
 
 # Random User Data Project
 
-- This project involves fetching random user data from the "Random User Generator API" [https://randomuser.me/api/](https://randomuser.me/api/)  and displaying specific user information on the DOM. 
+This project is a web application that fetches and displays random user data using the Random User Generator API. Users can click the "New user" button to fetch and display information about a new random user. The displayed information includes the user's name, email address, birthday, address, phone numbers, and password.
 
 
 ## Used Technologies and Libraries
