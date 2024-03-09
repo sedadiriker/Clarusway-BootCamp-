@@ -15,3 +15,5 @@ This project is a web application that fetches and displays random user data usi
 ![Project snapshot](./video.gif) 
 
 [Random-User Live Page](https://sedadiriker.github.io/Clarusway-BootCamp-/JAVASCR%C4%B0PT/random-user-tw/)
+
+Happy coding! :rocket:
