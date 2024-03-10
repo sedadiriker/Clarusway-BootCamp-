@@ -33,6 +33,6 @@ This project features the shopping cart functionality of Fenerbahçe Sports Club
 
 ![Project snapshot](./video.gif) 
 
-[Fenerium Shopping Cart Live Page](https://sedadiriker.github.io/Clarusway-BootCamp-/JAVASCR%C4%B0PT/random-user-tw/)
+[Fenerium Shopping Cart Live Page](https://sedadiriker.github.io/Clarusway-BootCamp-/JAVASCR%C4%B0PT/Fenerium-Online-Shop/)
 
 Happy coding! :rocket:
