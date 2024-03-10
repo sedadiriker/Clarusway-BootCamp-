@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./tree-832079_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+}
+
+.main-container {
+    margin: 5rem auto;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.btn {
+    position: absolute; 
+    bottom: 20px;
+    right: 20px;
+    margin-bottom: -5rem;
+}
+
+#cityInput {
+    outline: none;
+    padding: 10px;
+    border: none;
+    width: 200px;
+    border-bottom: 3px solid black;
+}
+
+.sec{
+    padding: 10px;
+    background-color: green;
+    border: none;
+    transition: .3s all;
+}
+.sec:hover{
+    color: white;
+    border-bottom: 1px solid black;
+}
+
+.desc{
+    font-size: 11px;
+}
