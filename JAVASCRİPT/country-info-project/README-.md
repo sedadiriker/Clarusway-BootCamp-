@@ -27,7 +27,7 @@ This project is a web application that displays information about countries worl
 ## Screenshots
 ![Project snapshot](./video.gif) 
 
-[Country İnfo Project Live Page](https://sedadiriker.github.io/Clarusway-BootCamp-/JAVASCR%C4%B0PT/countr%C4%B1es/)
+[Country İnfo Project Live Page](https://sedadiriker.github.io/Clarusway-BootCamp-/JAVASCR%C4%B0PT/country-info-project/)
 
 Happy coding! :rocket:
 
