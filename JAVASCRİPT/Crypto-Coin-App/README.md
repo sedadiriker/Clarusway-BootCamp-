@@ -18,7 +18,7 @@ The Crypto Coin App is a web application built using HTML, CSS, and JavaScript. 
 
 - HTML
 - CSS
-- JavaScript
+- Vanilla JavaScript
 - Bootstrap
 - Font Awesome
 - SweetAlert2
