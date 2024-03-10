@@ -35,6 +35,6 @@ The Crypto Coin App is a web application built using HTML, CSS, and JavaScript. 
 ## Screenshots
 ![Project snapshot](./video.gif) 
 
-[Crypto Coin App Live Page](https://sedadiriker.github.io/Clarusway-BootCamp-/JAVASCR%C4%B0PT/countr%C4%B1es/)
+[Crypto Coin App Live Page](https://sedadiriker.github.io/Clarusway-BootCamp-/JAVASCR%C4%B0PT/Crypto-Coin-App/)
 
 Happy coding! :rocket:
