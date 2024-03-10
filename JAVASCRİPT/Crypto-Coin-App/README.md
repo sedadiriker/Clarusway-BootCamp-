@@ -7,10 +7,8 @@ This is a simple web application that allows users to search for cryptocurrency 
 - [Introduction](#introduction)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Screenshots](#Screenshots)
+
 
 ## Introduction
 
