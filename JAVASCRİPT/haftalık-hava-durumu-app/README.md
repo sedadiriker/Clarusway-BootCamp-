@@ -16,11 +16,11 @@ The Weekly Weather Forecast App is built using HTML, CSS, and JavaScript. It fet
 
 ## Technologies Used
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - Vanillia JavaScript
-- Bootstrap
-- Font Awesome
+- Bootstrap 5.3.3
+- Font Awesome 6.5.1
 - SweetAlert2
 - CoinRanking API
 
