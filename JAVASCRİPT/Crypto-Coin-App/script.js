@@ -39,10 +39,11 @@ const displayCoins = (request) => {
 
         // isim yoksa
         if (!coinNames.includes(searchValue)) {
+            //! sweetalert
             Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
-                text: 'Aranılan coin bulunamadı!'
+                text: 'The searched coin could not be found!'
             })
             search.value = ''
             return
@@ -57,7 +58,7 @@ const displayCoins = (request) => {
                     Swal.fire({
                         icon: 'error',
                         title: 'Oops...',
-                        text: `${name} zaten var!`
+                        text: `${name} already exists!`
                     })
                     return
                 }
