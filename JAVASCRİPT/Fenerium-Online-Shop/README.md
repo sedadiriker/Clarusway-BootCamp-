@@ -14,7 +14,7 @@ This project features the shopping cart functionality of Fenerbahçe Sports Club
 ## Technologies Used
 - HTML5
 - CSS3
-- JavaScript
+- Vanilla JavaScript
 - Bootstrap 5.3.3
 - Font Awesome 6.5.1
   
