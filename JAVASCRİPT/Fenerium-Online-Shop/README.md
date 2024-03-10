@@ -2,16 +2,26 @@
 
 This project features the shopping cart functionality of Fenerbahçe Sports Club's official store, Fenerium.
 
+## Table of Contents
+
+- [Description](#Description)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Screenshots](#Screenshots)
+  
+
 ## Description
 This project features the shopping cart functionality of Fenerbahçe Sports Club's official store, Fenerium. Users can select various products and add them to their cart, manage items in their cart, view the total quantity of products, and total price. Upon confirming the cart, the stock quantities of the products are updated.
 
 ## Features
+
 - Users can select various products and add them to their cart.
 - They can view and manage the contents of the cart, including removing items.
 - They can view the total quantity of products and total price.
 - Upon confirming the cart, stock quantities are updated.
 
 ## Technologies Used
+
 - HTML5
 - CSS3
 - Vanilla JavaScript
@@ -20,6 +30,7 @@ This project features the shopping cart functionality of Fenerbahçe Sports Club
   
 
 ## Screenshots
+
 ![Project snapshot](./video.gif) 
 
 [Fenerium Shopping Cart Live Page](https://sedadiriker.github.io/Clarusway-BootCamp-/JAVASCR%C4%B0PT/random-user-tw/)
