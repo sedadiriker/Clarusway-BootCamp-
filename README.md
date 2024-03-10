@@ -7,12 +7,7 @@ This repo includes visuals and class studies we carried out at Clarusway Bootcam
 
 | Category      | Description                                                                                       |
 |---------------|---------------------------------------------------------------------------------------------------|
-| [HTML-CSS](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS) | This repository contains projects, assignments, and personal projects related to HTML-CSS that were completed within the class. |
-|               |                                                                                                   |
-| [ANIMATIONS](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/ANIMATIONS) | This repo contains animation applications.                                                         |
-| [ASSIGNMENTS](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/ASSIGNMENTS) | This repos contains assignments.                                                                   |
-| [BOOSTRAP](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/BOOSTRAP) | This repo contains Boostrap projects.                                                              |
-| [SASS](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/HTML-CSS/SASS) | This repo contains SASS projects.                                                                   |
-|               |                                                                                                   |
-| [JavaScript](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/JAVASCR%C4%B0PT) |                                                                                                   |
-| [Workshop](https://github.com/sedadiriker/Clarusway-BootCamp-/tree/main/WORKSHOP) |                                                                                                   |
+| HTML-CSS | This repository contains projects, assignments, and personal projects related to HTML-CSS that were completed within the class. |
+| JAVASCRİPT | This repository contains projects, assignments, and personal projects related to JavaScript that were completed within the class. It includes exercises and assignments aimed at learning JavaScript concepts and building practical applications.
+
+| Workshop |                                                                                                   |
