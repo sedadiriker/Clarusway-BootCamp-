@@ -42,15 +42,14 @@ window.addEventListener('load', () => {
                         <p>${common}</p>
                 `
                 //!Region
-                lıght[0].textContent = `${region}`
+                lıght[0].textContent = `${region || ''}`
 
                 //!capitals
-                lıght[1].textContent = `${capital}`
+                lıght[1].textContent = `${capital || ''}`
                  
                 //!Languages
                 for (const lang in languages) {
                     lıght[2].textContent = `${languages[lang]}`
-                    
                 }
 
                 //!currencies
