@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nöbetçi Eczaneler</title>
+
+    <script type="module" crossorigin src="/assets/index-BF6y8LIU.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-D0bXuEkf.css">
+  </head>
+  <body>
+    <div class="main-container container">
+      <div class="kullanıcı_girisi">
+        <div class="title">
+          <img width="100px" src="/assets/rsf-lab-eczanesi-Ck8Wkhau.png" alt="icon-eczane">
+          <h1>Nöbetçi <span>E</span>czane </h1>
+        </div>
+        
+        <form>
+            <input type="text" id="cityInput" placeholder="Şehir girin">
+            <input type="text" id="ilceInput" placeholder="İlçe girin">
+            <button type="submit" class="sec">Seç</button>
+        </form>
+      </div> 
+      <div class="image">
+        <img class="w-100" src="/assets/istockphoto-559537925-612x612-CXvTvDc_.jpg" alt="">
+      </div>
+      <div class="eczaneler hidden ">
+        <table id="eczaneTable">
+          <thead>
+            <tr>
+              <th>Eczane Adı</th>
+              <th>Adres</th>
+              <th>Telefon</th>
+            </tr>
+          </thead>
+          <tbody id="eczaneTableBody">
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
