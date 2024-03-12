@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/Nobetc%C4%B1-Eczane-App/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nöbetçi Eczaneler</title>
+    <script type="module" crossorigin src="./assets/index-C8yZCi49.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DWtvxIBL.css">
+    <link rel="stylesheet" href="./assets/style.css">
+  </head>
+  <body>
+    <div class="main-container container d-flex flex-column align-items-center mt-2 gap-5">
+      <div class="kullanıcı_girisi">
+        <div class="title d-flex align-items-center mb-3">
+          <img width="100px" src="./assets/rsf-lab-eczanesi-Ck8Wkhau.png" alt="icon-eczane">
+          <h1>Nöbetci <span>E</span>czane </h1>
+        </div>
+        
+        <form>
+            <input type="text" id="cityInput" placeholder="Şehir girin">
+            <input type="text" id="ilceInput" placeholder="İlçe girin">
+            <button type="submit" class="sec">Seç</button>
+        </form>
+      </div> 
+      <div class="image">
+        <img class="w-100" src="./assets/istockphoto-559537925-612x612-CXvTvDc_.jpg" alt="">
+        <p class="fs-3 text-center mt-4">Size En Yakın Nöbetçi Eczaneler Burada!</p>
+      </div>
+      <div class="eczaneler hidden">
+        <table id="eczaneTable">
+          <thead>
+            <tr>
+              <th>Eczane Adı</th>
+              <th>Adres</th>
+              <th>Telefon</th>
+            </tr>
+          </thead>
+          <tbody id="eczaneTableBody">
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </body>
+</html>
