@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container{
+  padding: 0 10px;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+  gap: 2rem;
+}
+
+.main-container h1{
+  text-align: center;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.title span{
+  font-size: 3rem;
+  color: #C4161B;
+}
+
+input{
+  background-color: rgb(242, 237, 231);
+  border: 1px solid rgba(0, 0, 0, 0.096);
+  padding: 6px 1rem;
+  outline: none;
+}
+
+input:hover{
+  border-bottom: 3px solid #C4161B;
+}
+
+button{
+  background-color: #C4161B;
+  color: white;
+  padding: 6px 1rem;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.eczaneler{
+  margin-top: 4rem;
+}
+
+#eczaneTable{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid rgba(0, 0, 0, 0.179);
+  padding: 8px 1rem;
+  text-align: left
+}
+
+th {
+  background-color: #f2f2f2
+}
+
+.hidden{
+  display: none;
+}
+.image{
+  box-shadow: 2px 5px 10px black;
+}
+@media screen and (max-width:480px){
+  form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  button{
+    width: 50%;
+    margin: auto;
+  }
+
+
+  td{
+    font-size: 12px;
+  }
+}
