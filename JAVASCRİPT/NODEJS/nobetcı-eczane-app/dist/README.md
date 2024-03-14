@@ -38,6 +38,6 @@ Nöbetçi Eczaneler Uygulaması, acil durumlarda en yakın nöbetçi eczaneleri
 ## Screenshots
 ![Project snapshot](./video.gif) 
 
-[Weekly Weather Forecast App Live Page](https://sedadiriker.github.io/Clarusway-BootCamp-/JAVASCR%C4%B0PT/haftal%C4%B1k-hava-durumu-app/)
+[Weekly Weather Forecast App Live Page]
 
 Happy coding! :rocket:
