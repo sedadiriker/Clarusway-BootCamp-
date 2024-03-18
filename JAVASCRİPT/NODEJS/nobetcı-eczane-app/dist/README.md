@@ -38,6 +38,6 @@ Nöbetçi Eczaneler Uygulaması, acil durumlarda en yakın nöbetçi eczaneleri
 ## Screenshots
 ![Project snapshot](./video.gif) 
 
-[Weekly Weather Forecast App Live Page]
+[Nöbetçi Eczaneler Uygulaması Live Page](https://sedadiriker.github.io/Clarusway-BootCamp-/JAVASCR%C4%B0PT/NODEJS/nobetc%C4%B1-eczane-app/dist/)
 
 Happy coding! :rocket:
