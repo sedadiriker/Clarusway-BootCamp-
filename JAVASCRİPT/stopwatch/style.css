@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color:bisque;
+}
+
+#stopwatch{
+    font-size: 2rem;
+    color: rgb(210, 243, 160);
+    background-color: black;
+    padding: 1rem;
+    letter-spacing: 8px;
+    display: flex;
+}
+
+button{
+    padding: 10px 1rem;
+    cursor: pointer;
+}
+
+#start{
+    background-color: green;
+}
+#stop{
+    background-color: red;
+}
+#reset{
+    background-color: white;
+}
