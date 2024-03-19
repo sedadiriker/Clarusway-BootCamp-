@@ -29,7 +29,7 @@ Deniz Online Shopping App is an all-encompassing e-commerce platform that brings
 
 - Secure Checkout Process: A secure and straightforward checkout process that protects your information and makes buying products online worry-free.
 
-## Technologies Used
+## Technologies Used 
 
 - HTML5
 - CSS3
