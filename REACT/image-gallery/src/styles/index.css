@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ephesis", cursive;
+
+}
+.App{
+  padding: 1rem 3rem;
+  background-color: bisque;
+}
+.App h1{
+  color: black;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-align: center;
+  font-size: 4rem;
+  background-color: rgb(136, 112, 82);
+  border: 5px solid black;
+  padding: 10px;
+}
+.gallery{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  row-gap: 3rem;
+}
+
+.photo{
+  width: 250px;
+  height: 300px;
+  overflow: hidden;
+  border: 10px double black;
+  box-shadow: 2px 3px 10px rgb(0, 0, 0);
+}
+
+.photo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 1s;
+}
+
+.photo img:hover{
+  transform: scale(1.2);
+}
+
+.photographer{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
