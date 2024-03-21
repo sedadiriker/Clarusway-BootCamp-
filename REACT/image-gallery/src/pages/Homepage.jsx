@@ -5,7 +5,7 @@ function Homepage() {
       <div className="App">
         <h1>Image Gallery</h1>
         <div className="gallery">
-            {Picture()}
+            <Picture/>
         </div>
       </div>
     )
