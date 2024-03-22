@@ -1,0 +1,20 @@
+.butonContainer{
+  text-align: center;
+}
+.btn{
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 8px;
+    color: #fff;
+    width: 5rem;
+    border: none;
+    margin: 5px;
+}
+
+.btn-blue {
+    background-color: #0069d9;
+  }
+  
+  .btn-red {
+    background-color: #d92100;
+  }
