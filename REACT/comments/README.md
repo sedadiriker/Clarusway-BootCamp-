@@ -1,5 +1,5 @@
 # Image Gallery
-In this project, I developed a photo gallery web page using React at a basic level.
+Dive into the world of interactive feedback with this simple yet elegant Comments page, where React and Sass bring user experiences to life.
 
 ## Project Skeleton
 
