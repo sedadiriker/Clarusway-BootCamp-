@@ -1,0 +1,35 @@
+@import "./mixins";
+@import "./variables";
+
+.card-container{
+    @include flex;
+    flex-wrap: wrap;
+
+    .card{
+        border: 1px solid gray;
+        @include flex;
+        flex-direction: column;
+        width: 250px;
+        height: 400px;
+        background-color: rgb(230, 217, 201);
+        border-radius: 20px;
+        box-shadow: -2px 3px 30px black;
+        transition: all 1s;
+        &:hover{
+            transform: scale(1.1);
+        }
+            img{
+            width: 100px;
+            }
+            p{
+                font-family: $textFont;
+            }
+            .name{
+                font-weight: bold;
+                background-color: rgb(100, 69, 69);
+                color: white;
+                padding: 10px 2rem;
+            }
+    }
+    
+}

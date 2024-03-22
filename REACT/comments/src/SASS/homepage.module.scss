@@ -1,0 +1,64 @@
+@import "./mixins";
+@import "./variables";
+
+.container{
+    padding: 2rem;
+    min-height: 100vh;
+    @include flex;
+    flex-direction: column;
+    background-color: rgb(208, 204, 204);
+    .title{
+        width: 100%;
+        position: relative;
+
+        .img{
+            width: 85px;
+            border-radius: 50%;
+            position: absolute;
+            top: 10%;
+            left:30%
+        }
+    }
+    h1{
+        width: 100%;
+        text-align: center;
+        text-shadow: 1px 2px 1px rgba(22, 21, 21, 0.354);
+        padding: 2rem;
+        font-family: $titleFont;
+        font-size: 2.5rem;
+        background-color: rgb(73, 108, 91);
+        color: white;
+        border-bottom: 20px double white;
+    }
+   
+}
+
+@media screen and  (max-width:1210px) {
+    .title .img{
+        transform: translateX(-20%);
+
+    }
+}
+@media screen and  (max-width:1025px) {
+    .title .img{
+        transform: translateX(-50%);
+
+    }
+}
+@media screen and  (max-width:925px) {
+    .title .img{
+        transform: translateX(-70%);
+
+    }
+}
+@media screen and  (max-width:800px) {
+    .title .img{
+        transform: translateX(-100%);
+
+    }
+}
+@media screen and  (max-width:480px) {
+    .title .img{
+        display: none;
+    }
+}
