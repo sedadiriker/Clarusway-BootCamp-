@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Interactive Product List with Details Modal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to this interactive product list application, designed to provide a smooth browsing experience for a variety of items, with the added functionality of displaying detailed information in a modal upon clicking.
 
-## Available Scripts
+
+## Project Skeleton
+
+```
+Interactive-Product-List/
+│
+├── public/                       # Static files
+│   └── index.html                # Main HTML file for the application
+│
+├── src/                          # Source files
+│   ├── components/               # React components
+│   │   ├── Header/               # Header component
+│   │   │   ├── Header.jsx        # Header component JSX
+│   │   │   └── Header.scss       # Header component styles
+│   │   │
+│   │   └── ProductCard/          # ProductCard component
+│   │       ├── ProductCard.jsx   # ProductCard component JSX
+│   │       └── ProductCard.scss  # ProductCard component styles
+│   │
+│   ├── helper/                   # Helper data
+│   │   └── data.js               # Data file for products
+│   │
+│   ├── SCSS/                     # SCSS stylesheets
+│   │   ├── _mixins.scss          # Mixins for reuse in multiple files
+│   │   ├── _reset.scss           # Reset/normalize styles
+│   │   └── _variables.scss       # Variables for styling (colors, fonts, etc.)
+│   │
+│   ├── App.js                    # Main React application component
+│   ├── App.scss                  # Global styles for the application
+│   └── index.js                  # React entry point
+│
+├── .gitignore                    # Specifies intentionally untracked files to ignore
+├── package.json                  # Project manifest with dependencies, scripts, etc.
+├── README.md                     # Project documentation and instructions
+
+
+```
+## Features
+
+- Dynamic Product Filtering: Users can filter products by categories using the navigation bar, enhancing the browsing experience.
+- Modal for Product Details: Clicking on a product card brings up a modal window with more detailed information, creating an intuitive user interaction without navigating away from the page.
+- Responsive Design: Crafted with responsiveness in mind, the application provides an optimal viewing experience across a range of devices.
+
+## Screenshots
+
+![Project snapshot](./video.gif)
+
+[Product List Live Page](https://product-listss.netlify.app/)
+
+
+## Description
 
 In the project directory, you can run:
+### `yarn install`
+Before running the app, install the necessary dependencies with this command. It should be executed only once before you start the application for the first time or after updating the dependencies.
 
 ### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Runs the app in the development mode. Open http://localhost:3000 in your browser to view it. The page will reload if you make edits. 
 
 ### `yarn build`
+Builds the app for production to the build folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
