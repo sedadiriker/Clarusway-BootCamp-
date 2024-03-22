@@ -28,8 +28,7 @@ image-gallery/
 │
 ├── .gitignore                 
 ├── package.json               # Project manifest with dependencies, scripts, etc.
-├── README.md                  # Documentation for the project
-└── video.gif                  # A demo video/gif of the project in action
+└── README.md                  # Documentation for the project
 
 ```
 
